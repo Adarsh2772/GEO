@@ -444,7 +444,8 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@geobiz.in</p>
+              <p>giobizsolutions@gmail.com
+              </p>
             </div>
           </div>
 

@@ -40,9 +40,7 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">giobizsolutions@gmail.com</a></i>
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9975391193</span></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 7030493488</span></i>
-        {{-- <a class="d-flex align-items-center ms-4" href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a class="d-flex align-items-center ms-4" href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> --}}
+        {{-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 7030493488</span></i> --}}
       </div>
     </div>
   </section>

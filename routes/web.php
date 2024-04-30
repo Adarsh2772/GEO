@@ -10,3 +10,5 @@ Route::get('/', function () {
 Route::get('/index2', function () {
     return view('index-2');
 });
+
+Route::post('/savecontactform', [WebController::class, 'savecontactform']);

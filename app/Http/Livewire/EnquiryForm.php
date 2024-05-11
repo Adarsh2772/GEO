@@ -10,7 +10,7 @@ use Livewire\Component;
 
 class EnquiryForm extends Component
 {
-    public $name,$email,$contact_no,$message,$ip,$originalcaptcha,$enteredcaptcha;
+    public $name='Adarsh',$email,$contact_no,$message,$ip,$originalcaptcha,$enteredcaptcha;
 
     protected $listeners = [
                             'getvalidate'
@@ -27,7 +27,6 @@ class EnquiryForm extends Component
             'name' => $this->name,
             'email' => $this->email,
             'contact_no' => $this->contact_no,
-            'ip_address' => $this->ip,
             'message' => $this->message,
         ];
 
@@ -65,13 +64,17 @@ class EnquiryForm extends Component
 
         // Enquiry::create($data);
 
-        $response = Http::post(config('constants.DEFAULT_URL').'/website/sendcontact', [
-            'name' => $this->name,
-            'email' => $this->email,
-            'contact_no' => $this->contact_no,
-            'ip_address' => $this->ip,
-            'message' => $this->message,
+        $details = array_merge($data,[
+            'message' => $request->message,
+            'subject' => 'New Customer Enquiry',
+            'view' => 'emails.contact_template',
         ]);
+
+        dd($details);
+
+        $to_email = "adarshsolankurkar8367@gmail.com";
+        
+        Mail::to($to_email)->send(new SendMail($details));
 
         session()->flash('success', 'Thank you. The form has been submitted successfully. Our representative will get in touch with you shortly.');
         $this->dispatchBrowserEvent('iztoast', ["animate" => 1, 'sweetalert' => 1]);

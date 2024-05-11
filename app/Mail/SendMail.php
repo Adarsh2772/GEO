@@ -33,7 +33,7 @@ class SendMail extends Mailable
         $subject = $this->details['subject'];
         $view = $this->details['view'];
 
-        return $this->from('example@gmail.com', 'DueDeck')->subject($subject)->view($view);
+        return $this->from('example@gmail.com', 'GEO BUSINESS SOLUTIONS')->subject($subject)->view($view);
 
     }
 

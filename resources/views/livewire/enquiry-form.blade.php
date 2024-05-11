@@ -3,13 +3,13 @@
         <h3 class="font-18 font-medium mb-3">Send Enquiry Now</h3>
         <form wire:submit.prevent="submitdetails()" class="needs-validation" novalidate>
             <div class="row">
-                <!-- @if($message = Session::get('success'))
+                @if($message = Session::get('success'))
                 <div class="col-md-12">
                     <div class="alert alert-success">
                         <p>{{$message}}</p>
                     </div>
                 </div>
-                @endif -->
+                @endif
                 <div class="col-md-12">
                     <div class="form-floating mb-3 has-validation">
                         <input type="text" class="form-control alphabet" wire:model="name" maxlength="50" id="yourName"

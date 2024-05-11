@@ -413,28 +413,52 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="/savecontactform" method="post" role="form" class="php-email-form">
+            @if($message = Session::get('success'))
+              <div class="col-md-12">
+                  <div class="text-success">
+                      <p>{{$message}}</p>
+                  </div>
+              </div>
+            @endif
+            <form action="savecontactform" method="post" class="php-email-form">
+              @csrf
               <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
+                  <div class="col form-group">
+                      <input type="text" maxlength="50" name="name" class="form-control" id="name" autocomplete="off"
+                          placeholder="Enter Your Name *" value="{{old('name')}}" required>
+                      @error('name')
+                          <div class="text-danger danger-message">{{ $message }}</div>
+                      @enderror
+                  </div>
+                  <div class="col form-group">
+                      <input type="email" maxlength="50" class="form-control" name="email" id="email"
+                          autocomplete="off" placeholder="Enter Your Email *" value="{{old('email')}}" required>
+                      @error('email')
+                          <div class="text-danger danger-message">{{ $message }}</div>
+                      @enderror
+                  </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  <input type="tel" maxlength="10" class="form-control" name="contact_no" id="contact_no"
+                      autocomplete="off" placeholder="Enter Your Contact No *" value="{{old('contact_no')}}" required>
+                  @error('contact_no')
+                      <div class="text-danger danger-message">{{ $message }}</div>
+                  @enderror
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  <textarea class="form-control" name="message" rows="5" maxlength="200" autocomplete="off"
+                      placeholder="Message *" required>{{old('message')}}</textarea>
+                  @error('message')
+                      <div class="text-danger danger-message">{{ $message }}</div>
+                  @enderror
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          </form>
           </div>
 
         </div>
@@ -518,7 +542,7 @@
   <script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
   <script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
   <script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}"></script>
-  <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+  {{-- <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script> --}}
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>

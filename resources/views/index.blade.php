@@ -90,7 +90,7 @@
   <main id="main">
 
     <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
+    {{-- <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -129,14 +129,14 @@
         </div>
 
       </div>
-    </section><!-- End Featured Services Section -->
+    </section><!-- End Featured Services Section --> --}}
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
+          <h2>About Us</h2>
         </div>
 
         <div class="row">
@@ -144,7 +144,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>Discover tailor strategies and expert guidance</h3>
             <p class="fst-italic">
-              Over 100+ happy customers get their financial goals, with 250+ crores disbursements. Our track record speaks for itself, demonstrating our commitment to delivering results and making a positive impact on the lives of our clients.
+              At Geo Business Solutions, we're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.
             </p>
             <ul>
               <li>
@@ -159,7 +159,9 @@
                   </p>
                 <div>
                   <h5>Background & Experience</h5>
-                  <p>We're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.</p>
+                  <p> Through our years in banking, we noticed a gap - many people struggle to navigate the complex world of finance, unable to find proper guidance. That's where we saw opportunity to make a difference. We founded Geo Business Solutions to provide a one-stop solution for all customers’ financial needs. 
+                    With financial solution we are providing RERA services and business solutions. Our expert knowledge and experience in RERA 
+                    </p>
                 </div>
               </li>
               <li>
@@ -173,8 +175,8 @@
                   </svg>
                   </p>
                 <div>
-                  <h5>Core Team</h5>
-                  <p> Synergies expertise in investment banking, asset management, and financial analysis to provide tailored solutions for your financial needs. With a passion for innovation and a commitment to excellence, we're dedicated to guiding you toward financial success with precision and insight.</p>
+                  <h5>We Achieved</h5>
+                  <p>Over 100+ happy customers get their financial goals, with 250+ crores disbursements. Our track record speaks for itself, demonstrating our commitment to delivering results and making a positive impact on the lives of our clients.</p>
                 </div>
               </li>
               <li>
@@ -189,13 +191,33 @@
                   </p>
                 <div>
                   <h5>Vision & Values</h5>
-                  <p> Empowering individuals and businesses to achieve financial prosperity through innovative solutions and personalised guidance, redefining the landscape of financial empowerment.</p>
+                  <p> By 2030, we envision reaching new heights by disbursing over 1000+ crores in the next six years. Our goal is to ensure the financial soundness of satisfied customers through quality services in Pune. We are dedicated to making a lasting impact on the financial well-being of our clients and the community.</p>
                 </div>
               </li>
             </ul>
           </div>
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="section-title">
+          <h5>Core Team</h5>
+        </div>
+        <div class="row">
+          <div class="col-lg-2" data-aos="fade-right" data-aos-delay="100">
+            <img src="{{asset('assets/img/sambhaji-more.jpg')}}" class="team-img" alt="">
+          </div>
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to Geo Business Solutions, Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
+            </p>
+              {{-- His dedication bore fruit as he ascended to the position of Director, embodying the role of a relationship manager. Within the company, Sambhaji serves as a vital link between bankers and clients, adeptly understanding customer needs while ensuring compliance with standardized procedures, thus facilitating smooth transactions and fostering success.</p> --}}
+          </div>
+          <div class="col-lg-2" data-aos="fade-right" data-aos-delay="100">
+            <img src="{{asset('assets/img/siddhant-chindhe.jpg')}}" class="team-img" alt="">
+          </div>
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+          <p><b>Siddhant Chindhe (Credit Manager):</b> Siddhant Chindhe, a dynamic Credit Manager, brings his expertise and strategic skills to the table. With a keen eye for detail and an unwavering commitment to excellence, Siddhant plays a pivotal role in assessing proposals and making informed decisions that drive both client and company growth.</p>
           </div>
         </div>
 
@@ -214,13 +236,60 @@
         </div>
 
         <div class="row">
-            {{-- <div class="section-title">
-            <h3>Retails</h3>
-            </div> --}}
+            <div class="section-title">
+            <h3>Retail Loans</h3>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Home Loan</a></h4>
+                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Mortage</a></h4>
+                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Business Loans</a></h4>
+                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="">Equipment Finance</a></h4>
+                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Balance Transfer (BT)</a></h4>
+                <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.</p>
+              </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="section-title">
+          <h3>Wholesale</h3>
+          </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Project Finance</a></h4>
+              <h4><a href="">Project Finance – Plant & Machinery, CC-OD</a></h4>
               <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.</p>
             </div>
           </div>
@@ -228,7 +297,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Cash Credit / Working Capital</a></h4>
+              <h4><a href="">Working Capital / CC / OD</a></h4>
               <p class="text-justify">Empower your MSME business with working capital solutions that fuel growth and sustainability. Our customized cash credit solutions are designed to meet the dynamic needs of your business.</p>
             </div>
           </div>
@@ -244,24 +313,45 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Letter of Credit</a></h4>
+              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Bank Guarantee</a></h4>
+              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Foreign Currency Term Loan</a></h4>
+              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Construction Finance</a></h4>
+              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a href="">Loan against Property (LAP)</a></h4>
               <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Home Loan</a></h4>
-              <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Balance Transfer (BT)</a></h4>
-              <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.</p>
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Balance Transfer</a></h4>
+              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.</p>
             </div>
           </div>
 
@@ -272,18 +362,50 @@
           <div class="section-title">
           <h3>Maha RERA Services</h3>
           </div>
-        <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Maha RERA Registration Service</a></h4>
+            <h4><a href="">Registration</a></h4>
             <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.</p>
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">MAHARERA Compliance </a></h4>
+            <h4><a href="">Compliance </a></h4>
+            <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Drafting</a></h4>
+            <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Project Planning </a></h4>
+            <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Project Amendments</a></h4>
+            <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Extension </a></h4>
             <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.</p>
           </div>
         </div>
@@ -526,6 +648,10 @@
 <style>
   .text-justify{
     text-align: justify;
+  }
+  .team-img{
+    height: 150px;
+    width: 150px;
   }
 </style>
 

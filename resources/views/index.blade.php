@@ -206,7 +206,7 @@
         </div>
         <div class="row">
           <div class="col-lg-2" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/sambhaji-more.jpg')}}" class="team-img" alt="">
+            <img src="{{asset('assets/img/Sambhaji-More.jpg')}}" class="team-img" alt="">
           </div>
             <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
             <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to Geo Business Solutions, Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
@@ -214,7 +214,7 @@
               {{-- His dedication bore fruit as he ascended to the position of Director, embodying the role of a relationship manager. Within the company, Sambhaji serves as a vital link between bankers and clients, adeptly understanding customer needs while ensuring compliance with standardized procedures, thus facilitating smooth transactions and fostering success.</p> --}}
           </div>
           <div class="col-lg-2" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/siddhant-chindhe.jpg')}}" class="team-img" alt="">
+            <img src="{{asset('assets/img/Siddhant-Chindhe.jpg')}}" class="team-img" alt="">
           </div>
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
           <p><b>Siddhant Chindhe (Credit Manager):</b> Siddhant Chindhe, a dynamic Credit Manager, brings his expertise and strategic skills to the table. With a keen eye for detail and an unwavering commitment to excellence, Siddhant plays a pivotal role in assessing proposals and making informed decisions that drive both client and company growth.</p>

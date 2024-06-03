@@ -13,6 +13,10 @@ Route::get('/index2', function () {
     return view('index-2');
 });
 
-Route::get('/services', Service::class);
+Route::get('/services', function () {
+    return view('services');
+});
+
+// Route::get('/services', Service::class);
 
 Route::post('/savecontactform', [WebController::class, 'savecontactform']);

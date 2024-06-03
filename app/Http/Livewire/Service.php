@@ -10,6 +10,9 @@ class Service extends Component
 {
     public $service="Home";
 
+    protected $listeners = [
+        'knowmore'
+    ];
 
     public function render()
     {
@@ -17,7 +20,7 @@ class Service extends Component
     }
 
     public function knowmore($value){
-        dd("cddcdc");
+        dd("dcc");
         $this->service = $value;
         dd($this->service);
     }

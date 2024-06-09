@@ -17,6 +17,14 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/wholesale', function () {
+    return view('wholesale');
+});
+
+Route::get('/mahareraservice', function () {
+    return view('mahareraservice');
+});
+
 // Route::get('/services', Service::class);
 
 Route::post('/savecontactform', [WebController::class, 'savecontactform']);

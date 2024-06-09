@@ -60,6 +60,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#choseus">Why Choose Us?</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -246,8 +247,8 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a >Mortage</a></h4>
-                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
+                <h4><a >Mortgage</a></h4>
+                <p class="text-justify">Looking to buy a home? You're in the right place. Our comprehensive guide to mortgage loans will walk you through everything you need to know to make informed decisions about financing your dream home.
                   <a href="/services" class="learn-more-link">Learn More</a>
                 </p>
               </div>
@@ -257,7 +258,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
                 <h4><a >Business Loans</a></h4>
-                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
+                <p class="text-justify">Fuel your business aspirations with tailored financing solutions from Geo Business Solutions Pvt. Ltd. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
                   <a href="/services" class="learn-more-link">Learn More</a>
                 </p>
               </div>
@@ -267,7 +268,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
                 <h4><a >Equipment Finance</a></h4>
-                <p class="text-justify">Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
+                <p class="text-justify">Equipment finance refers to the methods and options available for businesses to acquire machinery, vehicles, and other equipment necessary for their operations. There are several avenues and types of equipment finance, including loans, leases, and other financial products.
                   <a href="/services" class="learn-more-link">Learn More</a>
                 </p>
               </div>
@@ -277,7 +278,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-slideshow"></i></div>
                 <h4><a >Balance Transfer (BT)</a></h4>
-                <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.
+                <p class="text-justify">A balance transfer is a financial strategy where you move the outstanding balance from one or more credit cards to another credit card, typically one with a lower interest rate. This can help you save on interest charges and pay down your debt more quickly.
                   <a href="/services" class="learn-more-link">Learn More</a>
                 </p>
               </div>
@@ -294,7 +295,7 @@
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a >Project Finance – Plant & Machinery, CC-OD</a></h4>
               <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.
-                <a href="/services" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -304,7 +305,7 @@
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a >Cash Credit / Working Capital (CC) / Overdraft (OD)</a></h4>
               <p class="text-justify">Empower your MSME business with working capital solutions that fuel growth and sustainability. Our customized cash credit solutions are designed to meet the dynamic needs of your business.
-                <a href="/services" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -314,7 +315,7 @@
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a >Term Loan</a></h4>
               <p class="text-justify">Unlock opportunities for expansion and development through flexible and competitive term loan options. Tailored to your industry and business size, our term loans are crafted for success.
-                <a href="/services" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -323,8 +324,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Letter of Credit</a></h4>
-              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/services" class="learn-more-link">Learn More</a>
+              <p class="text-justify">A Letter of Credit (LC) is a financial instrument issued by a bank or financial institution that guarantees a buyer's payment to a seller will be received on time and for the correct amount. If the buyer is unable to make the payment on the purchase, the bank covers the full or remaining amount.
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -332,8 +333,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Bank Guarantee</a></h4>
-              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/services" class="learn-more-link">Learn More</a>
+              <p class="text-justify">A bank guarantee is a financial product provided by a bank or financial institution, which serves as a promise to cover a loss if the borrower defaults on a loan or fails to meet contractual obligations. It's a form of risk management that offers assurance to the beneficiary (typically a seller, contractor, or service provider) that they will receive payment or compensation, even if the applicant (buyer, borrower, or contractor) fails to fulfill their obligations.
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -341,8 +342,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Foreign Currency Term Loan</a></h4>
-              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/services" class="learn-more-link">Learn More</a>
+              <p class="text-justify">A Foreign Currency Term Loan (FCTL) is a type of loan that is issued in a currency other than the domestic currency of the borrower. This kind of loan is often utilized by businesses that engage in international trade or have operations in multiple countries.
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -350,8 +351,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Construction Finance</a></h4>
-              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/services" class="learn-more-link">Learn More</a>
+              <p class="text-justify">Construction finance is a type of funding specifically designed to support the financial needs of construction projects. This financing can be used for residential, commercial, or infrastructure development projects. It helps cover the costs of materials, labor, equipment, and other expenses associated with the construction process.
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -361,7 +362,7 @@
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Loan against Property (LAP)</a></h4>
               <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/services" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -371,7 +372,7 @@
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Balance Transfer</a></h4>
               <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.
-                <a href="/services" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Learn More</a>
               </p>
             </div>
           </div>
@@ -388,7 +389,7 @@
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
             <h4><a >Registration</a></h4>
             <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
-              <a href="/services" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -398,7 +399,7 @@
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><a >Compliance </a></h4>
             <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
-              <a href="/services" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -407,8 +408,8 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
             <h4><a >Drafting</a></h4>
-            <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
-              <a href="/services" class="learn-more-link">Learn More</a>
+            <p class="text-justify">Drafting for Maha RERA typically involves creating various legal documents and agreements required for compliance with the regulations set by the Maharashtra Real Estate Regulatory Authority.
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -420,8 +421,8 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><a >Project Planning </a></h4>
-            <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
-              <a href="/services" class="learn-more-link">Learn More</a>
+            <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project planning involves various steps to ensure compliance with MahaRERA regulations and successful execution of real estate projects.
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -430,8 +431,8 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
             <h4><a >Project Amendments</a></h4>
-            <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
-              <a href="/services" class="learn-more-link">Learn More</a>
+            <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project amendments refer to any changes or modifications made to the details provided during the initial registration of a real estate project.
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -440,8 +441,8 @@
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><a >Extension </a></h4>
-            <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
-              <a href="/services" class="learn-more-link">Learn More</a>
+            <p class="text-justify">The extension process within the framework of MahaRERA services aims to balance the interests of developers and homebuyers while ensuring transparency, accountability, and compliance with regulatory requirements.
+              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
             </p>
           </div>
         </div>
@@ -451,7 +452,7 @@
       </div>
     </section><!-- End Services Section -->
 
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="choseus" class="portfolio-details">
       <div class="container">
         <div class="section-title">
           <h3>Why Choose <span>GEO </span>Business Solutions?</h3>

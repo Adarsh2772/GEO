@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>GEO BUSINESS SOLUTIONS PVT. LTD. | RETAIL LOAN</title>
+    <title>GEO BUSINESS SOLUTIONS PVT. LTD. | WHOLESALE</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -79,10 +79,10 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Retail Loans</h2>
+                    <h2>Wholesale</h2>
                     <ol>
-                        <li><a href="/">Home</a></li>
-                        <li>Retail Loans</li>
+                        <li><a href="/#">Home</a></li>
+                        <li>Wholesale</li>
                     </ol>
                 </div>
 
@@ -97,24 +97,35 @@
                     <div class="row gy-4">
                         <div class="col-lg-3">
                             <div class="portfolio-info">
-                                {{-- <a href="javascript: void(0)">
-                                    <p><b onclick="knowmore('Retail', this)">Retail Loans</b></p>
-                                </a> --}}
+                               
                                 <a href="javascript: void(0)">
-                                    <p class="p-10 selected selected-service" onclick="knowmore('Home', this)">Home Loan</p>
+                                    <p class="p-10 selected selected-service" onclick="knowmore('Project', this)">Project Finance</p>
                                 </a>
                                 <a href="javascript: void(0)">
-                                    <p class="p-10 selected" onclick="knowmore('Mortgage', this)">Mortgage</p>
+                                    <p class="p-10 selected" onclick="knowmore('CashCredit', this)">Cash Credit / Working Capital</p>
                                 </a>
                                 <a href="javascript: void(0)">
-                                    <p class="p-10 selected" onclick="knowmore('Business', this)">Business Loans</p>
+                                    <p class="p-10 selected" onclick="knowmore('Term', this)">Term Loan</p>
                                 </a>
                                 <a href="javascript: void(0)">
-                                    <p class="p-10 selected" onclick="knowmore('Equipment', this)">Equipment Finance</p>
+                                    <p class="p-10 selected" onclick="knowmore('LetterCredit', this)">Letter of Credit</p>
                                 </a>
                                 <a href="javascript: void(0)">
-                                    <p class="p-10 selected" onclick="knowmore('Balance', this)">Balance Transfer (BT)</p>
+                                    <p class="p-10 selected" onclick="knowmore('Bank', this)">Bank Guarantee</p>
                                 </a>
+                                <a href="javascript: void(0)">
+                                    <p class="p-10 selected" onclick="knowmore('Foreign', this)">Foreign Currency Term Loan</p>
+                                </a>
+                                <a href="javascript: void(0)">
+                                    <p class="p-10 selected" onclick="knowmore('Construction', this)">Construction Finance</p>
+                                </a>
+                                <a href="javascript: void(0)">
+                                    <p class="p-10 selected" onclick="knowmore('Loan', this)">Loan against Property (LAP)</p>
+                                </a>
+                                <a href="javascript: void(0)">
+                                    <p class="p-10 selected" onclick="knowmore('Balance', this)">Balance Transfer</p>
+                                </a>
+
                               
                             </div>
                         </div>
@@ -1538,7 +1549,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Show Home section by default
-            document.getElementById('Home').classList.add('active');
+            document.getElementById('Project').classList.add('active');
 
             window.knowmore = function(service, element) {
                 // Hide all sections

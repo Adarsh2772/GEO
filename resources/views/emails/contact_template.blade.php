@@ -69,7 +69,7 @@ footer {
     background-position: center;
     border: 10px #cccccc solid;">
             <article>
-                <p>Dear <b>GEO BUSINESS SOLUTIONS PVT. LTD.</b>,<br>
+                <p>Dear <b>GEO Business Solutions PVT. LTD.</b>,<br>
                     <br>
                         New customer enquiry.
                 </p>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>GEO BUSINESS SOLUTIONS PVT. LTD. | MAHA RERA Service</title>
+    <title>GEO Business Solutions PVT. LTD. | MAHA RERA Service</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -1461,7 +1461,7 @@
 
                     <div class="col-lg-4 col-md-7 footer-links">
                         <h4>Our Business</h4>
-                        <p>At GEO Business Solutions, we are your strategic partners, dedicated to simplifying the
+                        <p>At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the
                             complex journey between you and financial institutions.</p>
                     </div>
 

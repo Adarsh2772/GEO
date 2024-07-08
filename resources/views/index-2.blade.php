@@ -11,7 +11,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>GEO BUSINESS SOLUTIONS PVT. LTD. | Home Page</title>
+    <title>GEO Business Solutions PVT. LTD. | Home Page</title>
   <link rel="icon" href="favicon.png"><link href="tailwind.css" rel="stylesheet"></head>
 
   <body
@@ -151,7 +151,7 @@
               <p
                 class="mb-8 max-w-[480px] text-base dark:text-dark-6 text-body-color"
               >
-              At GEO Business Solutions, we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.
+              At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.
 
               </p>
               <ul class="flex flex-wrap items-center">

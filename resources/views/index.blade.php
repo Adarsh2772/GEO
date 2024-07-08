@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>GEO BUSINESS SOLUTIONS PVT. LTD. | Home Page</title>
+  <title>GEO Business Solutions PVT. LTD. | Home Page</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -73,7 +73,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Elevating Your Financial Aspirations with Expert Consultancy</h1>
-      <h2>At GEO Business Solutions, we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
+      <h2>At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
       
     </div>
   </section><!-- End Hero -->
@@ -135,7 +135,7 @@
           <div class="col-lg-7 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>Discover tailor strategies and expert guidance</h3>
             <p class="fst-italic">
-              At Geo Business Solutions, we're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.
+              At GEO Business Solutions PVT. LTD., we're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.
             </p>
             <ul>
               <li>
@@ -150,7 +150,7 @@
                   </p>
                 <div>
                   <h5>Background & Experience</h5>
-                  <p> Through our years in banking, we noticed a gap - many people struggle to navigate the complex world of finance, unable to find proper guidance. That's where we saw opportunity to make a difference. We founded Geo Business Solutions to provide a one-stop solution for all customers’ financial needs. 
+                  <p> Through our years in banking, we noticed a gap - many people struggle to navigate the complex world of finance, unable to find proper guidance. That's where we saw opportunity to make a difference. We founded GEO Business Solutions PVT. LTD. to provide a one-stop solution for all customers’ financial needs. 
                     With financial solution we are providing RERA services and business solutions. Our expert knowledge and experience in RERA 
                     </p>
                 </div>
@@ -201,7 +201,7 @@
             <img src="{{asset('assets/img/Sambhaji-More2.jpeg')}}" class="" style="height: 225px;" alt="">
           </div>
             <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
-            <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to Geo Business Solutions, Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
+            <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to GEO Business Solutions PVT. LTD., Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
               His dedication bore fruit as he ascended to the position of Director, embodying the role of a relationship manager. Within the company, Sambhaji serves as a vital link between bankers and clients, adeptly understanding customer needs while ensuring compliance with standardized procedures, thus facilitating smooth transactions and fostering success.</p>
           </div>
         </div>
@@ -258,7 +258,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
                 <h4><a >Business Loans</a></h4>
-                <p class="text-justify">Fuel your business aspirations with tailored financing solutions from Geo Business Solutions Pvt. Ltd. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
+                <p class="text-justify">Fuel your business aspirations with tailored financing solutions from GEO Business Solutions PVT. LTD. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
                   <a href="/services" class="learn-more-link">Learn More</a>
                 </p>
               </div>
@@ -505,9 +505,9 @@
 
               <div class="portfolio-description">
                 <h3>Results-Driven Approach</h3>
-                <p>Your success is our utmost priority. At GEO Business Solutions, we adopt a results-driven approach focused on maximizing your financial potential and securing your future. Whether it's increasing profitability, optimizing cash flow, or achieving long-term sustainability, we are committed to delivering tangible results that exceed your expectations.</p>
-                <p>Choose GEO Business Solutions Pvt Ltd as your trusted partner and embark on a journey towards financial empowerment and success. With our expertise, personalized approach, and unwavering dedication, we are here to help you realize your aspirations and achieve greatness in the ever-evolving financial landscape.</p>
-                <p>At GEO Business Solutions Pvt Ltd, we are committed to delivering unparalleled consultancy services that drive business growth and success. With a team of seasoned professionals and a proven track record of excellence, we stand ready to partner with you on your journey towards financial prosperity.
+                <p>Your success is our utmost priority. At GEO Business Solutions PVT. LTD., we adopt a results-driven approach focused on maximizing your financial potential and securing your future. Whether it's increasing profitability, optimizing cash flow, or achieving long-term sustainability, we are committed to delivering tangible results that exceed your expectations.</p>
+                <p>Choose GEO Business Solutions PVT. LTD. Pvt Ltd as your trusted partner and embark on a journey towards financial empowerment and success. With our expertise, personalized approach, and unwavering dedication, we are here to help you realize your aspirations and achieve greatness in the ever-evolving financial landscape.</p>
+                <p>At GEO Business Solutions PVT. LTD. Pvt Ltd, we are committed to delivering unparalleled consultancy services that drive business growth and success. With a team of seasoned professionals and a proven track record of excellence, we stand ready to partner with you on your journey towards financial prosperity.
                   
                 </p>
               </div>
@@ -535,55 +535,55 @@
             <ul class="faq-list">
 
               <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is project finance, and how can GEO Business Solutions help? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is project finance, and how can GEO Business Solutions PVT. LTD. help? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Project finance involves securing funding for large-scale ventures, such as real estate projects. At GEO Business Solutions, we specialize in structuring project finance solutions tailored to your specific needs. From assessing feasibility to securing funding, our expert team guides you through every step of the process.
+                    Project finance involves securing funding for large-scale ventures, such as real estate projects. At GEO Business Solutions PVT. LTD., we specialize in structuring project finance solutions tailored to your specific needs. From assessing feasibility to securing funding, our expert team guides you through every step of the process.
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How does cash credit/working capital benefit MSME businesses, and what solutions does GEO Business Solutions offer? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How does cash credit/working capital benefit MSME businesses, and what solutions does GEO Business Solutions PVT. LTD. offer? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Cash credit/working capital is essential for the day-to-day operations and growth of MSME businesses. At GEO Business Solutions, we offer customized cash credit solutions designed to provide the necessary liquidity for your business's dynamic needs, ensuring sustainable growth and success.
+                    Cash credit/working capital is essential for the day-to-day operations and growth of MSME businesses. At GEO Business Solutions PVT. LTD., we offer customized cash credit solutions designed to provide the necessary liquidity for your business's dynamic needs, ensuring sustainable growth and success.
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What are the advantages of opting for a term loan, and how does GEO Business Solutions assist in this process? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What are the advantages of opting for a term loan, and how does GEO Business Solutions PVT. LTD. assist in this process? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Term loans offer opportunities for expansion and development by providing flexible funding options. Our expert team at GEO Business Solutions helps you unlock these opportunities by offering competitive and tailored term loan solutions designed to meet the unique requirements of your industry and business size.
+                    Term loans offer opportunities for expansion and development by providing flexible funding options. Our expert team at GEO Business Solutions PVT. LTD. helps you unlock these opportunities by offering competitive and tailored term loan solutions designed to meet the unique requirements of your industry and business size.
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Can you explain loan against property (LAP) and its benefits? How does GEO Business Solutions facilitate LAP solutions?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Can you explain loan against property (LAP) and its benefits? How does GEO Business Solutions PVT. LTD. facilitate LAP solutions?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Loan against property (LAP) allows you to leverage the equity in your property for strategic investments while retaining ownership. GEO Business Solutions offers LAP solutions that provide liquidity for your financial needs while ensuring your assets work for you, enabling you to make the most of your property investments.
+                    Loan against property (LAP) allows you to leverage the equity in your property for strategic investments while retaining ownership. GEO Business Solutions PVT. LTD. offers LAP solutions that provide liquidity for your financial needs while ensuring your assets work for you, enabling you to make the most of your property investments.
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What makes GEO Business Solutions' home loan offerings unique, and how can they help individuals achieve homeownership? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What makes GEO Business Solutions PVT. LTD.' home loan offerings unique, and how can they help individuals achieve homeownership? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq5" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    GEO Business Solutions offers seamless and competitive home loan offerings designed to fulfill the dream of homeownership for individuals. Whether you're a first-time buyer or looking to upgrade, our personalized home loan solutions cater to your specific requirements, making the home buying process hassle-free and rewarding.
+                    GEO Business Solutions PVT. LTD. offers seamless and competitive home loan offerings designed to fulfill the dream of homeownership for individuals. Whether you're a first-time buyer or looking to upgrade, our personalized home loan solutions cater to your specific requirements, making the home buying process hassle-free and rewarding.
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">How does balance transfer (BT) work, and what are the benefits of choosing GEO Business Solutions for BT services? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">How does balance transfer (BT) work, and what are the benefits of choosing GEO Business Solutions PVT. LTD. for BT services? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq6" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Balance transfer allows you to optimize your existing loans by transferring them to a new lender with better terms and lower interest rates. At GEO Business Solutions, we facilitate smooth and efficient balance transfer services, helping you benefit from improved loan terms, reduced financial burden, and enhanced financial stability.
+                    Balance transfer allows you to optimize your existing loans by transferring them to a new lender with better terms and lower interest rates. At GEO Business Solutions PVT. LTD., we facilitate smooth and efficient balance transfer services, helping you benefit from improved loan terms, reduced financial burden, and enhanced financial stability.
                   </p>
                 </div>
               </li>
@@ -737,7 +737,7 @@
 
           <div class="col-lg-4 col-md-7 footer-links">
             <h4>Our Business</h4>
-            <p>At GEO Business Solutions, we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</p>
+            <p>At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</p>
             {{-- <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

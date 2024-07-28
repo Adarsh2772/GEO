@@ -1567,6 +1567,8 @@
 
     </script>
 
+@include('include.whatsapp')
+
 </body>
 
 </html>

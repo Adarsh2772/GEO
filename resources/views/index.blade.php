@@ -39,7 +39,7 @@
       </div>
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">giobizsolutions@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9975391193</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9766562525</span></i>
         {{-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 7030493488</span></i> --}}
       </div>
     </div>
@@ -627,7 +627,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+91 9975391193 / +91 7030493488</p>
+              <p>+91 9766562525</p>
             </div>
           </div>
 
@@ -710,7 +710,7 @@
               <br> THYSSENKRUPP, Pimpri,
               <br>Pune - 411 018<br>
 
-              <strong>Phone:</strong> +91 9975391193 / +91 7030493488<br>
+              <strong>Phone:</strong> +91 9766562525 <br>
               <strong>Email:</strong> giobizsolutions@gmail.com<br>
             </p>
           </div>

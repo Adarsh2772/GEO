@@ -16,7 +16,7 @@
         "companyName":"GEO Buisness Solutions PVT. LTD.",
         "companySubTitle":"",
         "companyImg":"https://geobiz.in/public/assets/img/geo-favicon.svg",
-        "phoneNumber":"919975391193",
+        "phoneNumber":"919766562525",
         "welcomeText":"Hi there!\nHow can I help you?",
         "userSentText":"Hey,\nJust saw your website\nCan you send me more details?",
         "showByDefault": null,

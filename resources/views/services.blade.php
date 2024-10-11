@@ -1433,7 +1433,7 @@
                             <br> THYSSENKRUPP, Pimpri,
                             <br>Pune - 411 018<br>
 
-                            <strong>Phone:</strong> +91 9766562525 / +91 7030493488<br>
+                            <strong>Phone:</strong> +91 9766562525 <br>
                             <strong>Email:</strong> giobizsolutions@gmail.com<br>
                         </p>
                     </div>

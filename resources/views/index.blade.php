@@ -59,7 +59,12 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#services">Finance </a></li>
+              <li><a href="#RERA">RERA</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#choseus">Why Choose Us?</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -208,10 +213,11 @@
         <br>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            {{-- <img src="{{asset('assets/img/Siddhant-Chindhe.jpg')}}" class="team-img" alt=""> --}}
+            <img src="{{asset('assets/img/Siddhant-Chindhe-2.jpg')}}" style="width: 337px;" alt="">
           </div>
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-          <p><b>Siddhant Chindhe (Credit Manager):</b> Siddhant Chindhe, a dynamic Credit Manager, brings his expertise and strategic skills to the table. With a keen eye for detail and an unwavering commitment to excellence, Siddhant plays a pivotal role in assessing proposals and making informed decisions that drive both client and company growth.</p>
+          <p><b>Siddhant Chindhe (Credit Manager):</b> is known for his exceptional ability to balance risk assessment with business growth. His strategic approach to credit evaluation ensures that every proposal is scrutinized with precision, safeguarding the company’s interests while fostering client trust. Siddhant’s expertise spans across diverse industries, enabling him to craft tailored solutions that meet unique client needs. His proactive mindset and problem-solving skills not only mitigate potential risks but also identify opportunities that contribute to sustainable growth.</p>
+          <p>Beyond his technical acumen, Siddhant is a dynamic leader who values collaboration and mentorship. He actively engages with cross-functional teams to streamline processes, enhance operational efficiency, and deliver seamless customer experiences. With a strong commitment to excellence, Siddhant remains focused on building long-term relationships that drive mutual success. His unwavering dedication to professional development and continuous learning ensures he stays ahead of industry trends, positioning him as a trusted advisor in the ever-evolving financial landscape.</p>
           </div>
         </div>
 
@@ -240,7 +246,7 @@
                 <h4><a >Home Loan</a></h4>
                 <p class="text-justify">
                   Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
-                  <a href="/services" class="learn-more-link">Learn More</a></p>
+                  <a href="/services" class="learn-more-link">Know More</a></p>
               </div>
             </div>            
 
@@ -249,7 +255,7 @@
                 <div class="icon"><i class="bi bi-buildings-fill"></i></div>
                 <h4><a >Mortgage</a></h4>
                 <p class="text-justify">Looking to buy a home? You're in the right place. Our comprehensive guide to mortgage loans will walk you through everything you need to know to make informed decisions about financing your dream home.
-                  <a href="/services" class="learn-more-link">Learn More</a>
+                  <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
             </div>
@@ -259,7 +265,7 @@
                 <div class="icon"><i class="bi bi-briefcase-fill"></i></div>
                 <h4><a >Business Loans</a></h4>
                 <p class="text-justify">Fuel your business aspirations with tailored financing solutions from GEO Business Solutions PVT. LTD. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
-                  <a href="/services" class="learn-more-link">Learn More</a>
+                  <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
             </div>
@@ -269,7 +275,7 @@
                 <div class="icon"><i class="bi bi-gear-wide-connected"></i></div>
                 <h4><a >Equipment Finance</a></h4>
                 <p class="text-justify">Equipment finance refers to the methods and options available for businesses to acquire machinery, vehicles, and other equipment necessary for their operations. There are several avenues and types of equipment finance, including loans, leases, and other financial products.
-                  <a href="/services" class="learn-more-link">Learn More</a>
+                  <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
             </div>
@@ -279,7 +285,7 @@
                 <div class="icon"><i class="bi bi-cash-coin"></i></div>
                 <h4><a >Balance Transfer (BT)</a></h4>
                 <p class="text-justify">A balance transfer is a financial strategy where you move the outstanding balance from one or more credit cards to another credit card, typically one with a lower interest rate. This can help you save on interest charges and pay down your debt more quickly.
-                  <a href="/services" class="learn-more-link">Learn More</a>
+                  <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
             </div>
@@ -295,7 +301,7 @@
               <div class="icon"><i class="bi bi-clipboard2-pulse-fill"></i></div>
               <h4><a >Project Finance – Plant & Machinery, CC-OD</a></h4>
               <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -305,7 +311,7 @@
               <div class="icon"><i class="bi bi-currency-rupee"></i></div>
               <h4><a >Cash Credit / Working Capital (CC) / Overdraft (OD)</a></h4>
               <p class="text-justify">Empower your MSME business with working capital solutions that fuel growth and sustainability. Our customized cash credit solutions are designed to meet the dynamic needs of your business.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -315,7 +321,7 @@
               <div class="icon"><i class="bi bi-file-spreadsheet-fill"></i></div>
               <h4><a >Term Loan</a></h4>
               <p class="text-justify">Unlock opportunities for expansion and development through flexible and competitive term loan options. Tailored to your industry and business size, our term loans are crafted for success.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -325,7 +331,7 @@
               <div class="icon"><i class="bi bi-file-text"></i></div>
               <h4><a >Letter of Credit</a></h4>
               <p class="text-justify">A Letter of Credit (LC) is a financial instrument issued by a bank or financial institution that guarantees a buyer's payment to a seller will be received on time and for the correct amount. If the buyer is unable to make the payment on the purchase, the bank covers the full or remaining amount.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -334,7 +340,7 @@
               <div class="icon"><i class="bi bi-bank2"></i></div>
               <h4><a >Bank Guarantee</a></h4>
               <p class="text-justify">A bank guarantee is a financial product provided by a bank or financial institution, which serves as a promise to cover a loss if the borrower defaults on a loan or fails to meet contractual obligations. It's a form of risk management that offers assurance to the beneficiary (typically a seller, contractor, or service provider) that they will receive payment or compensation, even if the applicant (buyer, borrower, or contractor) fails to fulfill their obligations.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -343,7 +349,7 @@
               <div class="icon"><i class="bi bi-currency-exchange"></i></div>
               <h4><a >Foreign Currency Term Loan</a></h4>
               <p class="text-justify">A Foreign Currency Term Loan (FCTL) is a type of loan that is issued in a currency other than the domestic currency of the borrower. This kind of loan is often utilized by businesses that engage in international trade or have operations in multiple countries.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -352,7 +358,7 @@
               <div class="icon"><i class="bi bi-building-fill-check"></i></div>
               <h4><a >Construction Finance</a></h4>
               <p class="text-justify">Construction finance is a type of funding specifically designed to support the financial needs of construction projects. This financing can be used for residential, commercial, or infrastructure development projects. It helps cover the costs of materials, labor, equipment, and other expenses associated with the construction process.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -362,7 +368,7 @@
               <div class="icon"><i class="bi bi-houses-fill"></i></div>
               <h4><a >Loan against Property (LAP)</a></h4>
               <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -372,7 +378,7 @@
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a >Balance Transfer</a></h4>
               <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.
-                <a href="/wholesale" class="learn-more-link">Learn More</a>
+                <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
           </div>
@@ -380,16 +386,16 @@
         </div>
 
         <br>
-        <div class="row">
+        <div class="row" id="RERA">
           <div class="section-title">
-          <h3>Maha RERA Services</h3>
+          <h3>RERA Services</h3>
           </div>
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-r-circle-fill"></i></div>
             <h4><a >Registration</a></h4>
             <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -399,7 +405,7 @@
             <div class="icon"><i class="bi bi-c-circle-fill"></i></div>
             <h4><a >Compliance </a></h4>
             <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -408,8 +414,8 @@
           <div class="icon-box">
             <div class="icon"><i class="bi bi-file-post"></i></div>
             <h4><a >Drafting</a></h4>
-            <p class="text-justify">Drafting for Maha RERA typically involves creating various legal documents and agreements required for compliance with the regulations set by the Maharashtra Real Estate Regulatory Authority.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+            <p class="text-justify">Drafting for RERA typically involves creating various legal documents and agreements required for compliance with the regulations set by the Maharashtra Real Estate Regulatory Authority.
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -422,7 +428,7 @@
             <div class="icon"><i class="bi bi-graph-up"></i></div>
             <h4><a >Project Planning </a></h4>
             <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project planning involves various steps to ensure compliance with MahaRERA regulations and successful execution of real estate projects.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -432,7 +438,7 @@
             <div class="icon"><i class="bi bi-map-fill"></i></div>
             <h4><a >Project Amendments</a></h4>
             <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project amendments refer to any changes or modifications made to the details provided during the initial registration of a real estate project.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -442,7 +448,7 @@
             <div class="icon"><i class="bi bi-palette2"></i></div>
             <h4><a >Extension </a></h4>
             <p class="text-justify">The extension process within the framework of MahaRERA services aims to balance the interests of developers and homebuyers while ensuring transparency, accountability, and compliance with regulatory requirements.
-              <a href="/mahareraservice" class="learn-more-link">Learn More</a>
+              <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
         </div>
@@ -452,73 +458,122 @@
       </div>
     </section><!-- End Services Section -->
 
-    <section id="choseus" class="portfolio-details">
+    <section id="choseus" class="portfolio-details py-5">
       <div class="container">
-        <div class="section-title">
-          <h3>Why Choose <span>GEO </span>Business Solutions?</h3>
+        <div class="section-title text-center mb-5">
+          <h3>Why Choose <span>GEO</span> Business Solutions?</h3>
         </div>
-        <div class="row gy-4">
-
-          <div class="col-lg-12">
-            <div class="portfolio-info">
-              <div class="portfolio-description">
-                <h3>Expertise</h3>
-                <p>Our financial experts bring years of industry-specific knowledge to the table, ensuring you receive the best advice and solutions.
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>Prompt Service</h3>
-                <p>Experience swift and efficient service with our dedicated team, ensuring your financial needs are met promptly.
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>Customized Solutions</h3>
-                <p>EWe understand that each client is unique. Our solutions are tailored to your specific needs, ensuring optimal results.
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>Transparent Process</h3>
-                <p>Experience swift and efficient service with our dedicated team, ensuring your financial needs are met promptly.
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>All-Inclusive Support </h3>
-                <p>We go beyond traditional finance consultancy! Our experts provide valuable insights to elevate your business strategies, contributing to your overall growth.	 
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>Extensive Network </h3>
-                <p>Benefit from our strong relationships with banks and financial institutions. We pave the way for you to secure the best deals and funding options.
-                  
-                </p>
-              </div>
-
-              <div class="portfolio-description">
-                <h3>Results-Driven Approach</h3>
-                <p>Your success is our utmost priority. At GEO Business Solutions PVT. LTD., we adopt a results-driven approach focused on maximizing your financial potential and securing your future. Whether it's increasing profitability, optimizing cash flow, or achieving long-term sustainability, we are committed to delivering tangible results that exceed your expectations.</p>
-                <p>Choose GEO Business Solutions PVT. LTD. Pvt Ltd as your trusted partner and embark on a journey towards financial empowerment and success. With our expertise, personalized approach, and unwavering dedication, we are here to help you realize your aspirations and achieve greatness in the ever-evolving financial landscape.</p>
-                <p>At GEO Business Solutions PVT. LTD. Pvt Ltd, we are committed to delivering unparalleled consultancy services that drive business growth and success. With a team of seasoned professionals and a proven track record of excellence, we stand ready to partner with you on your journey towards financial prosperity.
-                  
+        <div class="row g-4">
+          
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-person-fill-check me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Expertise</u></h5>
+                </div>
+                <p class="card-text">
+                  Our financial experts bring years of industry-specific knowledge to the table, ensuring you receive the best advice and solutions.
                 </p>
               </div>
             </div>
-            
           </div>
-
+          
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-clock-fill me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Prompt Service</u></h5>
+                </div>
+                <p class="card-text">
+                  Experience swift and efficient service with our dedicated team, ensuring your financial needs are met promptly.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-gear-fill me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Customized Solutions</u></h5>
+                </div>
+                <p class="card-text">
+                  We understand that each client is unique. Our solutions are tailored to your specific needs, ensuring optimal results.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-eye-fill me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Transparent Process</u></h5>
+                </div>
+                <p class="card-text">
+                  We ensure you experience a clear and transparent process, fostering trust and confidence in every step of our service.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-life-preserver me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>All-Inclusive Support</u></h5>
+                </div>
+                <p class="card-text">
+                  Our experts provide valuable insights to elevate your business strategies, contributing to your overall growth.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-people-fill me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Extensive Network</u></h5>
+                </div>
+                <p class="card-text">
+                  Benefit from our strong relationships with banks and financial institutions, paving the way to secure the best deals and funding options.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 7 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-bar-chart-fill me-2 fs-3"></i>
+                  <h5 class="card-title mb-0"><u>Results-Driven Approach</u></h5>
+                </div>
+                <p class="card-text">
+                  Your success is our utmost priority. We adopt a results-driven approach focused on maximizing financial potential and achieving sustainability.
+                </p>
+              </div>
+            </div>
+          </div>
+          
         </div>
-
       </div>
     </section>
+    
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -763,7 +818,7 @@
     padding-top: 0px;
 }
 .learn-more-link {
-  color: #007bff; /* Blue color for the link */
+  color: #1a4ba0; /* Blue color for the link */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Make the text bold */
   margin-left: 5px; /* Add some space before the link */
@@ -776,6 +831,9 @@
   margin-top: -15px;
     font-weight: 600;
     padding-bottom: 5px;
+}
+.bi{
+  color: #1a4ba0;
 }
 
 @media (min-width: 768px) {

@@ -92,7 +92,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="mb-2"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="">Expertise</a></h4>
               <p class="description">Our financial experts bring years of industry-specific knowledge to the table, ensuring you receive the best advice and solutions.</p>
             </div>
@@ -100,7 +100,7 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="mb-2"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="">Prompt Service</a></h4>
               <p class="description">Experience swift and efficient service with our dedicated team, ensuring your financial needs are met promptly.</p>
             </div>
@@ -108,7 +108,7 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <div class="mb-2"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Customized Solutions</a></h4>
               <p class="description">We understand that each client is unique. Our solutions are tailored to your specific needs, ensuring optimal results.</p>
             </div>
@@ -116,7 +116,7 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
+              <div class="mb-2"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="">Transparent Process</a></h4>
               <p class="description">Experience a transparent and straightforward process from consultation to execution. We believe in clear communication and integrity.</p>
             </div>
@@ -144,7 +144,9 @@
             </p>
             <ul>
               <li>
-                <p class="m-2"><svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <p class="m-2">
+                  {{-- <img src="{{ asset('assets/icons/about-us-1.png')}}" alt=""> --}}
+                  <svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <mask id="mask0_4_213" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
                   <rect width="50" height="50" fill="#D9D9D9"/>
                   </mask>
@@ -193,7 +195,7 @@
             </ul>
           </div>
           <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/aboutus1.webp')}}" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/BUSINESS/1.png')}}" class="img-fluid" alt="">
           </div>
         </div>
 
@@ -242,7 +244,10 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-house-fill"></i></div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
+                  {{-- <i class="bi bi-house-fill"></i> --}}
+                </div>
                 <h4><a >Home Loan</a></h4>
                 <p class="text-justify">
                   Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
@@ -252,7 +257,10 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-buildings-fill"></i></div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/Mortgage.png')}}" alt="">
+                  {{-- <i class="bi bi-buildings-fill"></i> --}}
+                </div>
                 <h4><a >Mortgage</a></h4>
                 <p class="text-justify">Looking to buy a home? You're in the right place. Our comprehensive guide to mortgage loans will walk you through everything you need to know to make informed decisions about financing your dream home.
                   <a href="/services" class="learn-more-link">Know More</a>
@@ -262,7 +270,9 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-briefcase-fill"></i></div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/BusinessLoans.png')}}" alt="">
+                </div>
                 <h4><a >Business Loans</a></h4>
                 <p class="text-justify">Fuel your business aspirations with tailored financing solutions from GEO Business Solutions PVT. LTD. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
                   <a href="/services" class="learn-more-link">Know More</a>
@@ -272,7 +282,9 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-gear-wide-connected"></i></div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/EquipmentFinance.png')}}" alt="">
+                </div>
                 <h4><a >Equipment Finance</a></h4>
                 <p class="text-justify">Equipment finance refers to the methods and options available for businesses to acquire machinery, vehicles, and other equipment necessary for their operations. There are several avenues and types of equipment finance, including loans, leases, and other financial products.
                   <a href="/services" class="learn-more-link">Know More</a>
@@ -282,7 +294,9 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-cash-coin"></i></div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
+                </div>
                 <h4><a >Balance Transfer (BT)</a></h4>
                 <p class="text-justify">A balance transfer is a financial strategy where you move the outstanding balance from one or more credit cards to another credit card, typically one with a lower interest rate. This can help you save on interest charges and pay down your debt more quickly.
                   <a href="/services" class="learn-more-link">Know More</a>
@@ -298,7 +312,9 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-clipboard2-pulse-fill"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
+              </div>
               <h4><a >Project Finance – Plant & Machinery, CC-OD</a></h4>
               <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -308,7 +324,9 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-currency-rupee"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/CashCredit.png')}}" alt="">
+              </div>
               <h4><a >Cash Credit / Working Capital (CC) / Overdraft (OD)</a></h4>
               <p class="text-justify">Empower your MSME business with working capital solutions that fuel growth and sustainability. Our customized cash credit solutions are designed to meet the dynamic needs of your business.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -318,7 +336,9 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-file-spreadsheet-fill"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/TermLoan.png')}}" alt="">
+              </div>
               <h4><a >Term Loan</a></h4>
               <p class="text-justify">Unlock opportunities for expansion and development through flexible and competitive term loan options. Tailored to your industry and business size, our term loans are crafted for success.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -328,7 +348,10 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-file-text"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/LetterofCredit.png')}}" alt="">
+                
+              </div>
               <h4><a >Letter of Credit</a></h4>
               <p class="text-justify">A Letter of Credit (LC) is a financial instrument issued by a bank or financial institution that guarantees a buyer's payment to a seller will be received on time and for the correct amount. If the buyer is unable to make the payment on the purchase, the bank covers the full or remaining amount.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -337,7 +360,10 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-bank2"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/BankGuarantee.png')}}" alt="">
+                
+              </div>
               <h4><a >Bank Guarantee</a></h4>
               <p class="text-justify">A bank guarantee is a financial product provided by a bank or financial institution, which serves as a promise to cover a loss if the borrower defaults on a loan or fails to meet contractual obligations. It's a form of risk management that offers assurance to the beneficiary (typically a seller, contractor, or service provider) that they will receive payment or compensation, even if the applicant (buyer, borrower, or contractor) fails to fulfill their obligations.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -346,7 +372,10 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-currency-exchange"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/ForeignCurrencyTermLoan.png')}}" alt="">
+                
+              </div>
               <h4><a >Foreign Currency Term Loan</a></h4>
               <p class="text-justify">A Foreign Currency Term Loan (FCTL) is a type of loan that is issued in a currency other than the domestic currency of the borrower. This kind of loan is often utilized by businesses that engage in international trade or have operations in multiple countries.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -355,7 +384,10 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-building-fill-check"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/ConstructionFinance.png')}}" alt="">
+                
+              </div>
               <h4><a >Construction Finance</a></h4>
               <p class="text-justify">Construction finance is a type of funding specifically designed to support the financial needs of construction projects. This financing can be used for residential, commercial, or infrastructure development projects. It helps cover the costs of materials, labor, equipment, and other expenses associated with the construction process.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -365,7 +397,10 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-houses-fill"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/LoanagainstProperty.png')}}" alt="">
+                
+              </div>
               <h4><a >Loan against Property (LAP)</a></h4>
               <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -375,7 +410,10 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
+              <div class="mb-2">
+                <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
+                
+              </div>
               <h4><a >Balance Transfer</a></h4>
               <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
@@ -392,7 +430,10 @@
           </div>
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-r-circle-fill"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/registration.png')}}" alt="">
+              
+            </div>
             <h4><a >Registration</a></h4>
             <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -402,7 +443,10 @@
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-c-circle-fill"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/Compliance.png')}}" alt="">
+              
+            </div>
             <h4><a >Compliance </a></h4>
             <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -412,7 +456,10 @@
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-file-post"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/Drafting.png')}}" alt="">
+              
+            </div>
             <h4><a >Drafting</a></h4>
             <p class="text-justify">Drafting for RERA typically involves creating various legal documents and agreements required for compliance with the regulations set by the Maharashtra Real Estate Regulatory Authority.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -425,7 +472,10 @@
         <div class="row">
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-graph-up"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/ProjectPlanning.png')}}" alt="">
+              
+            </div>
             <h4><a >Project Planning </a></h4>
             <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project planning involves various steps to ensure compliance with MahaRERA regulations and successful execution of real estate projects.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -435,7 +485,10 @@
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-map-fill"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/ProjectAmendments.png')}}" alt="">
+              
+            </div>
             <h4><a >Project Amendments</a></h4>
             <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project amendments refer to any changes or modifications made to the details provided during the initial registration of a real estate project.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -445,7 +498,10 @@
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-palette2"></i></div>
+            <div class="mb-2">
+              <img src="{{ asset('assets/icons/Extension.png')}}" alt="">
+              
+            </div>
             <h4><a >Extension </a></h4>
             <p class="text-justify">The extension process within the framework of MahaRERA services aims to balance the interests of developers and homebuyers while ensuring transparency, accountability, and compliance with regulatory requirements.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
@@ -760,7 +816,7 @@
           <div class="col-lg-4 col-md-7 footer-contact">
             <h3>GEO <span>BUSINESS</span></h3>
             <p class="logo-css">SOLUTIONS PVT. LTD.</p>
-            <p>ASPIRO,<br> Office No. 102 
+            <p>ASPIRO, Office No. 102 
               <br> Pimpri Station Road Opp.
               <br> THYSSENKRUPP, Pimpri,
               <br>Pune - 411 018<br>

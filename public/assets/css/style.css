@@ -460,15 +460,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 50vh;
-  background: url("../img/hero-bg.jpg") top left;
-  background-size: cover;
+  /* height: 50vh; */
+  background: url("../img/Slider/1.png") top left;
+  /* background-size: cover; */
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 31%);
   position: absolute;
   bottom: 0;
   top: 0;

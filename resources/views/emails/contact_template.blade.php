@@ -59,7 +59,7 @@ footer {
 }
 </style>
 </head>
-<body style="background: #d3e6ed;
+<body style="background: #1a4ba0;
     padding: 15px;">
 <section class="div-align">
 <header style="
@@ -67,7 +67,7 @@ footer {
     background-image: url('<?php echo config('constants.DEFAULT_URL');?>/public/image/eligo_watermark.png');
     background-repeat: no-repeat;
     background-position: center;
-    border: 10px #cccccc solid;">
+    border: 10px #2fb449 solid;">
             <article>
                 <p>Dear <b>GEO Business Solutions PVT. LTD.</b>,<br>
                     <br>

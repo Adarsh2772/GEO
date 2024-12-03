@@ -45,7 +45,7 @@ class SendMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'New Customer Enquiry',
+            subject: $this->details['subject'],
         );
     }
 
@@ -57,7 +57,7 @@ class SendMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'emails.contact_template',
+            view: $this->details['view'],
         );
     }
 

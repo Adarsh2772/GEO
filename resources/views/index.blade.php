@@ -15,6 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
@@ -38,7 +39,7 @@
       <div class="social-links d-none d-md-flex align-items-center">
       </div>
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">giobizsolutions@gmail.com</a></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">finance@geobiz.in</a></i>
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9766562525</span></i>
         {{-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 7030493488</span></i> --}}
       </div>
@@ -77,7 +78,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Elevating Your Financial Aspirations with Expert Consultancy</h1>
+      <h1>Turning Opportunities into Reality with Expert Finance Solutions</h1>
       <h2>At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
       
     </div>
@@ -133,71 +134,53 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-        </div>
-
-        <div class="row ">
-          
-          <div class="col-lg-7 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Discover tailor strategies and expert guidance</h3>
+          <h3>Discover tailor strategies and expert guidance</h3>
             <p class="fst-italic">
               At GEO Business Solutions PVT. LTD., we're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.
             </p>
+        </div>
+        <div class="row">
+          
+          <div class="col-lg-7 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            
             <ul>
               <li>
                 <p class="m-2">
-                  {{-- <img src="{{ asset('assets/icons/about-us-1.png')}}" alt=""> --}}
-                  <svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_4_213" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
-                  <rect width="50" height="50" fill="#D9D9D9"/>
-                  </mask>
-                  <g mask="url(#mask0_4_213)">
-                  <path d="M57.5 19.6181H46.0625C45.9375 18.7491 45.7396 17.9007 45.4688 17.0731C45.1979 16.2454 44.8542 15.4384 44.4375 14.6521H52.3125C52.1458 14.3625 51.9583 14.1142 51.75 13.9072C51.5417 13.7003 51.2917 13.5141 51 13.3486C49.9167 12.7278 48.6771 12.2726 47.2812 11.9829C45.8854 11.6932 44.2917 11.5484 42.5 11.5484H42.3125C41.4792 10.5966 40.5729 9.76891 39.5938 9.06539C38.6146 8.36188 37.5417 7.76182 36.375 7.26522C37.3333 7.0583 38.3229 6.89277 39.3438 6.76862C40.3646 6.64447 41.4167 6.58239 42.5 6.58239C44.7083 6.58239 46.7708 6.81 48.6875 7.26522C50.6042 7.72043 52.3958 8.38257 54.0625 9.25162C55.1458 9.83098 55.9896 10.6897 56.5938 11.8277C57.1979 12.9658 57.5 14.259 57.5 15.7074V19.6181ZM42.5 4.72014C40.4167 4.72014 38.6458 3.99593 37.1875 2.54752C35.7292 1.0991 35 -0.659691 35 -2.72886C35 -4.79802 35.7292 -6.55681 37.1875 -8.00523C38.6458 -9.45365 40.4167 -10.1779 42.5 -10.1779C44.5833 -10.1779 46.3542 -9.45365 47.8125 -8.00523C49.2708 -6.55681 50 -4.79802 50 -2.72886C50 -0.659691 49.2708 1.0991 47.8125 2.54752C46.3542 3.99593 44.5833 4.72014 42.5 4.72014ZM42.5 -0.245857C43.2083 -0.245857 43.8021 -0.483811 44.2812 -0.95972C44.7604 -1.43563 45 -2.02534 45 -2.72886C45 -3.43237 44.7604 -4.02209 44.2812 -4.49799C43.8021 -4.9739 43.2083 -5.21186 42.5 -5.21186C41.7917 -5.21186 41.1979 -4.9739 40.7188 -4.49799C40.2396 -4.02209 40 -3.43237 40 -2.72886C40 -2.02534 40.2396 -1.43563 40.7188 -0.95972C41.1979 -0.483811 41.7917 -0.245857 42.5 -0.245857ZM2.5 19.6181V15.7074C2.5 14.259 2.80208 12.9658 3.40625 11.8277C4.01042 10.6897 4.85417 9.83098 5.9375 9.25162C7.60417 8.38257 9.39583 7.72043 11.3125 7.26522C13.2292 6.81 15.2917 6.58239 17.5 6.58239C18.5833 6.58239 19.6354 6.64447 20.6562 6.76862C21.6771 6.89277 22.6667 7.0583 23.625 7.26522C22.4583 7.76182 21.3854 8.36188 20.4062 9.06539C19.4271 9.76891 18.5208 10.5966 17.6875 11.5484H17.5C15.7083 11.5484 14.1146 11.6932 12.7188 11.9829C11.3229 12.2726 10.0833 12.7278 9 13.3486C8.70833 13.5141 8.45833 13.7003 8.25 13.9072C8.04167 14.1142 7.85417 14.3625 7.6875 14.6521H15.5625C15.1458 15.4384 14.8021 16.2454 14.5312 17.0731C14.2604 17.9007 14.0625 18.7491 13.9375 19.6181H2.5ZM17.5 4.72014C15.4167 4.72014 13.6458 3.99593 12.1875 2.54752C10.7292 1.0991 10 -0.659691 10 -2.72886C10 -4.79802 10.7292 -6.55681 12.1875 -8.00523C13.6458 -9.45365 15.4167 -10.1779 17.5 -10.1779C19.5833 -10.1779 21.3542 -9.45365 22.8125 -8.00523C24.2708 -6.55681 25 -4.79802 25 -2.72886C25 -0.659691 24.2708 1.0991 22.8125 2.54752C21.3542 3.99593 19.5833 4.72014 17.5 4.72014ZM17.5 -0.245857C18.2083 -0.245857 18.8021 -0.483811 19.2812 -0.95972C19.7604 -1.43563 20 -2.02534 20 -2.72886C20 -3.43237 19.7604 -4.02209 19.2812 -4.49799C18.8021 -4.9739 18.2083 -5.21186 17.5 -5.21186C16.7917 -5.21186 16.1979 -4.9739 15.7188 -4.49799C15.2396 -4.02209 15 -3.43237 15 -2.72886C15 -2.02534 15.2396 -1.43563 15.7188 -0.95972C16.1979 -0.483811 16.7917 -0.245857 17.5 -0.245857ZM30 27.0671C28.625 27.0671 27.4479 26.5809 26.4688 25.6084C25.4896 24.6359 25 23.4668 25 22.1011V14.6521C25 13.2865 25.4896 12.1174 26.4688 11.1449C27.4479 10.1724 28.625 9.68614 30 9.68614C31.375 9.68614 32.5521 10.1724 33.5312 11.1449C34.5104 12.1174 35 13.2865 35 14.6521V22.1011C35 23.4668 34.5104 24.6359 33.5312 25.6084C32.5521 26.5809 31.375 27.0671 30 27.0671ZM28.125 39.4821V34.392C25.125 33.9368 22.6042 32.5504 20.5625 30.233C18.5208 27.9155 17.5 25.2049 17.5 22.1011H21.25C21.25 24.5014 22.1042 26.5499 23.8125 28.2466C25.5208 29.9433 27.5833 30.7916 30 30.7916C32.4167 30.7916 34.4792 29.9433 36.1875 28.2466C37.8958 26.5499 38.75 24.5014 38.75 22.1011H42.5C42.5 25.2049 41.4792 27.9155 39.4375 30.233C37.3958 32.5504 34.875 33.9368 31.875 34.392V39.4821H28.125Z" fill="#276ECE"/>
-                  </g>
-                  </svg>
-                  </p>
+                  <img src="{{ asset('assets/icons/1.png')}}" alt="">
+                </p>
                 <div>
                   <h5>Background & Experience</h5>
-                  <p> Through our years in banking, we noticed a gap - many people struggle to navigate the complex world of finance, unable to find proper guidance. That's where we saw opportunity to make a difference. We founded GEO Business Solutions PVT. LTD. to provide a one-stop solution for all customers’ financial needs. 
-                    With financial solution we are providing RERA services and business solutions. Our expert knowledge and experience in RERA 
-                    </p>
+                  <p>
+                    Through our years in banking, we noticed a gap - many people struggle to navigate the complex world of finance, unable to find proper guidance. That's where we saw an opportunity to make a difference. We founded GEO Business Solutions PVT. LTD. to provide a one-stop solution for all customers’ financial needs.
+                    With financial solutions, we are providing RERA services and business solutions. Our expert knowledge and experience in RERA.
+                  </p>
                 </div>
               </li>
               <li>
-                <p class="m-2"><svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_4_235" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
-                  <rect width="50" height="50" fill="#D9D9D9"/>
-                  </mask>
-                  <g mask="url(#mask0_4_235)">
-                  <path d="M37.5 33.4145C31.9167 33.4145 27.1875 31.4902 23.3125 27.6415C19.4375 23.7929 17.5 19.0959 17.5 13.5505C17.5 8.04654 19.4375 3.35988 23.3125 -0.509464C27.1875 -4.37881 31.9167 -6.31348 37.5 -6.31348C43.0417 -6.31348 47.7604 -4.37881 51.6562 -0.509464C55.5521 3.35988 57.5 8.04654 57.5 13.5505C57.5 19.0959 55.5521 23.7929 51.6562 27.6415C47.7604 31.4902 43.0417 33.4145 37.5 33.4145ZM37.5 28.4485C41.6667 28.4485 45.2083 27.0001 48.125 24.1033C51.0417 21.2064 52.5 17.6889 52.5 13.5505C52.5 9.41219 51.0417 5.89461 48.125 2.99777C45.2083 0.100939 41.6667 -1.34748 37.5 -1.34748C33.3333 -1.34748 29.7917 0.100939 26.875 2.99777C23.9583 5.89461 22.5 9.41219 22.5 13.5505C22.5 17.6889 23.9583 21.2064 26.875 24.1033C29.7917 27.0001 33.3333 28.4485 37.5 28.4485ZM43.1875 22.7997L46.75 19.2614L40 12.5573V3.61852H35V14.6058L43.1875 22.7997ZM5 6.10152V1.13552H15V6.10152H5ZM2.5 16.0335V11.0675H15V16.0335H2.5ZM5 25.9655V20.9995H15V25.9655H5Z" fill="#276ECE"/>
-                  </g>
-                  </svg>
-                  </p>
+                <p class="m-2">
+                  <img src="{{ asset('assets/icons/2.png')}}" alt="">
+                </p>
                 <div>
                   <h5>We Achieved</h5>
-                  <p>Over 100+ happy customers get their financial goals, with 250+ crores disbursements. Our track record speaks for itself, demonstrating our commitment to delivering results and making a positive impact on the lives of our clients.</p>
+                  <p>Over 100+ happy customers achieved their financial goals, with 250+ crores disbursements. Our track record speaks for itself, demonstrating our commitment to delivering results and making a positive impact on the lives of our clients.</p>
                 </div>
               </li>
               <li>
-                <p class="m-2"><svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_4_241" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
-                  <rect width="50" height="50" fill="#D9D9D9"/>
-                  </mask>
-                  <g mask="url(#mask0_4_241)">
-                  <path d="M27 38.1768C21.2083 36.7284 16.4271 33.4281 12.6562 28.2759C8.88542 23.1237 7 17.4024 7 11.1121V-4.03415L27 -11.4832L47 -4.03415V10.0569C46.2083 9.7258 45.3958 9.42577 44.5625 9.15678C43.7292 8.88779 42.875 8.69122 42 8.56707V-0.557955L27 -6.1447L12 -0.557955V11.1121C12 13.0572 12.2604 15.0022 12.7812 16.9472C13.3021 18.8922 14.0312 20.7441 14.9688 22.5029C15.9062 24.2617 17.0417 25.886 18.375 27.3758C19.7083 28.8656 21.1875 30.1071 22.8125 31.1003C23.2708 32.4246 23.875 33.6868 24.625 34.8869C25.375 36.087 26.2292 37.163 27.1875 38.1148C27.1458 38.1148 27.1146 38.1251 27.0938 38.1458C27.0729 38.1665 27.0417 38.1768 27 38.1768ZM39.5 38.1768C36.0417 38.1768 33.0938 36.9664 30.6563 34.5455C28.2188 32.1245 27 29.1967 27 25.7618C27 22.327 28.2188 19.3992 30.6563 16.9782C33.0938 14.5573 36.0417 13.3468 39.5 13.3468C42.9583 13.3468 45.9062 14.5573 48.3438 16.9782C50.7812 19.3992 52 22.327 52 25.7618C52 29.1967 50.7812 32.1245 48.3438 34.5455C45.9062 36.9664 42.9583 38.1768 39.5 38.1768ZM38.25 33.2108H40.75V27.0033H47V24.5203H40.75V18.3128H38.25V24.5203H32V27.0033H38.25V33.2108Z" fill="#276ECE"/>
-                  </g>
-                  </svg>
-                  </p>
+                <p class="m-2">
+                  <img src="{{ asset('assets/icons/3.png')}}" alt="">
+                </p>
                 <div>
-                  <h5>Vision & Values</h5>
-                  <p> By 2030, we envision reaching new heights by disbursing over 1000+ crores in the next six years. Our goal is to ensure the financial soundness of satisfied customers through quality services in Pune. We are dedicated to making a lasting impact on the financial well-being of our clients and the community.</p>
+                  <h5>Vision & Values</h5>
+                  <p>By 2030, we envision reaching new heights by disbursing over 1000+ crores in the next six years. Our goal is to ensure the financial soundness of satisfied customers through quality services in Pune. We are dedicated to making a lasting impact on the financial well-being of our clients and the community.</p>
                 </div>
               </li>
             </ul>
           </div>
-          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/BUSINESS/1.png')}}" class="img-fluid" alt="">
+          <div class="col-lg-5 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="{{ asset('assets/img/office1.jpg') }}" class="img-fluid img-bordered" alt="Office Image">
           </div>
         </div>
+        
 
         <br>
         <div class="section-title">
@@ -313,7 +296,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="mb-2">
-                <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
+                <img src="{{ asset('assets/icons/ProjectFinance.png')}}" alt="">
               </div>
               <h4><a >Project Finance – Plant & Machinery, CC-OD</a></h4>
               <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.
@@ -526,7 +509,8 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-person-fill-check me-2 fs-3"></i>
+                  {{-- <i class="bi bi-person-fill-check me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Expertise.png')}}" style="height: 50px;" alt="">
                   <h5 class="card-title mb-0"><u>Expertise</u></h5>
                 </div>
                 <p class="card-text">
@@ -541,7 +525,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-clock-fill me-2 fs-3"></i>
+                  {{-- <i class="bi bi-clock-fill me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Prompt-Service.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>Prompt Service</u></h5>
                 </div>
                 <p class="card-text">
@@ -556,7 +542,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-gear-fill me-2 fs-3"></i>
+                  {{-- <i class="bi bi-gear-fill me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Customized-Solutions.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>Customized Solutions</u></h5>
                 </div>
                 <p class="card-text">
@@ -571,7 +559,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-eye-fill me-2 fs-3"></i>
+                  {{-- <i class="bi bi-eye-fill me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Transparent-Process.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>Transparent Process</u></h5>
                 </div>
                 <p class="card-text">
@@ -586,7 +576,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-life-preserver me-2 fs-3"></i>
+                  {{-- <i class="bi bi-life-preserver me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/All-Inclusive-Support.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>All-Inclusive Support</u></h5>
                 </div>
                 <p class="card-text">
@@ -601,7 +593,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-people-fill me-2 fs-3"></i>
+                  {{-- <i class="bi bi-people-fill me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Extensive-Network.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>Extensive Network</u></h5>
                 </div>
                 <p class="card-text">
@@ -616,7 +610,9 @@
             <div class="card h-100 border-0 shadow">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                  <i class="bi bi-bar-chart-fill me-2 fs-3"></i>
+                  {{-- <i class="bi bi-bar-chart-fill me-2 fs-3"></i> --}}
+                  <img src="{{ asset('assets/why/Results-Driven-Approach.png')}}" style="height: 50px;" alt="">
+
                   <h5 class="card-title mb-0"><u>Results-Driven Approach</u></h5>
                 </div>
                 <p class="card-text">
@@ -729,7 +725,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>giobizsolutions@gmail.com
+              <p>finance@geobiz.in
               </p>
             </div>
           </div>
@@ -758,7 +754,7 @@
                   </div>
               </div>
             @endif
-            <form action="savecontactform" method="post" class="php-email-form">
+            <form id="contactForm" class="php-email-form">
               @csrf
               <div class="row">
                   <div class="col form-group">
@@ -790,12 +786,15 @@
                       <div class="text-danger danger-message">{{ $message }}</div>
                   @enderror
               </div>
-              <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              
+              <div class="text-center">
+                <button type="submit" id="submitButton" class="btn btn-primary">
+                    <span id="buttonText">Send Message</span>
+                    <span id="buttonLoader" style="display: none;">
+                        <i class="fa fa-spinner fa-spin"></i>
+                    </span>
+                </button>
+            </div>
           </form>
           </div>
 
@@ -822,7 +821,7 @@
               <br>Pune - 411 018<br>
 
               <strong>Phone:</strong> +91 9766562525 <br>
-              <strong>Email:</strong> giobizsolutions@gmail.com<br>
+              <strong>Email:</strong> finance@geobiz.in<br>
             </p>
           </div>
 
@@ -894,10 +893,21 @@
 
 @media (min-width: 768px) {
   .img-fluid {
-    width: 500px;
-    height: 565px;
+    /* width: 500px;
+    height: 565px; */
   }
 }
+
+.img-bordered {
+  max-width: 100%;
+  height: auto;
+  border: 6px solid #1a4ba0; /* Light gray border */
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visuals */
+  /* width: 526px;
+  height: 356px; */
+}
+
 </style>
 
   </footer><!-- End Footer -->
@@ -917,6 +927,77 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+  
+          const submitButton = document.getElementById('submitButton');
+          const buttonText = document.getElementById('buttonText');
+          const buttonLoader = document.getElementById('buttonLoader');
+          let formData = new FormData(this);
+  
+          // Disable the button and show the loader
+          submitButton.disabled = true;
+          buttonText.style.display = 'none';
+          buttonLoader.style.display = 'inline-block';
+  
+          // Reset errors
+          // document.getElementById('nameError').innerText = '';
+          // document.getElementById('emailError').innerText = '';
+          // document.getElementById('contactNoError').innerText = '';
+          // document.getElementById('messageError').innerText = '';
+  
+          fetch('savecontactform', {
+              method: 'POST',
+              headers: {
+                  'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+              },
+              body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+              // Enable the button and hide the loader
+              submitButton.disabled = false;
+              buttonText.style.display = 'inline-block';
+              buttonLoader.style.display = 'none';
+  
+              if (data.success) {
+                  Swal.fire({
+                      icon: 'success',
+                      title: 'Thank You!',
+                      text: 'The form has been submitted successfully. Our representative will get in touch with you shortly.',
+                      confirmButtonColor: '#004e89'
+                  });
+                  document.getElementById('contactForm').reset();
+              } else {
+                  // Show validation errors
+                  if (data.errors) {
+                      if (data.errors.name) document.getElementById('nameError').innerText = data.errors.name[0];
+                      if (data.errors.email) document.getElementById('emailError').innerText = data.errors.email[0];
+                      if (data.errors.contact_no) document.getElementById('contactNoError').innerText = data.errors.contact_no[0];
+                      if (data.errors.message) document.getElementById('messageError').innerText = data.errors.message[0];
+                  }
+              }
+          })
+          .catch(error => {
+              // Enable the button and hide the loader
+              submitButton.disabled = false;
+              buttonText.style.display = 'inline-block';
+              buttonLoader.style.display = 'none';
+  
+              Swal.fire({
+                  icon: 'error',
+                  title: 'Oops!',
+                  text: 'Something went wrong. Please try again later.',
+                  confirmButtonColor: '#d33'
+              });
+          });
+      });
+  </script>
+  
+
 @include('include.whatsapp')
 </body>
 

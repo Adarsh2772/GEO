@@ -53,7 +53,7 @@
     border-radius: 24px !important;
     transition: 0.5s linear !important;
     position: fixed !important;
-    bottom: 50px !important;
+    bottom: 10px !important;
     display: flex !important;
     flex-direction: column !important;
     z-index: 10024 !important;

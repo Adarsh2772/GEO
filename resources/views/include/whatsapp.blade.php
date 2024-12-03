@@ -53,11 +53,11 @@
     border-radius: 24px !important;
     transition: 0.5s linear !important;
     position: fixed !important;
-    bottom: 60px !important;
+    bottom: 50px !important;
     display: flex !important;
     flex-direction: column !important;
     z-index: 10024 !important;
-    right: 25px !important;
+    right: 60px !important;
     align-items: flex-start !important;
 }
 

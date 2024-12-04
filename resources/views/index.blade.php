@@ -177,7 +177,7 @@
             </ul>
           </div>
           <div class="col-lg-5 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ asset('assets/img/office1.jpg') }}" class="img-fluid img-bordered" alt="Office Image">
+            <img src="{{ asset('assets/img/office4.jpg') }}" class="img-fluid img-bordered" alt="Office Image">
           </div>
         </div>
         
@@ -901,7 +901,7 @@
 .img-bordered {
   max-width: 100%;
   height: auto;
-  border: 6px solid #1a4ba0; /* Light gray border */
+  /* border: 6px solid #1a4ba0;  */
   border-radius: 5px; /* Optional rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visuals */
   /* width: 526px;

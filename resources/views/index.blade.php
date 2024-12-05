@@ -77,9 +77,9 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Turning Opportunities into Reality with Expert Finance Solutions</h1>
-      <h2>At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
+    <div class="container w-50-l-22" data-aos="zoom-out" data-aos-delay="100">
+      <h1 style="color: #fff;">Turning Opportunities into Reality with Expert Finance Solutions</h1>
+      <h2 style="color: #fff;">At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
       
     </div>
   </section><!-- End Hero -->
@@ -227,11 +227,16 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="mb-2">
-                  <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
+                <div class="row mb-2">
+                  <div class="com-md-8">
+                    <h4><a >Home Loan</a></h4>
+                  </div>
+                  <div class="com-md-4">
+                    <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
+                  </div>
                   {{-- <i class="bi bi-house-fill"></i> --}}
                 </div>
-                <h4><a >Home Loan</a></h4>
+                
                 <p class="text-justify">
                   Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
                   <a href="/services" class="learn-more-link">Know More</a></p>
@@ -892,10 +897,10 @@
 }
 
 @media (min-width: 768px) {
-  .img-fluid {
-    /* width: 500px;
-    height: 565px; */
-  }
+  .w-50-l-22{
+  width:50%;
+  left: -22%;
+}  
 }
 
 .img-bordered {
@@ -907,6 +912,7 @@
   /* width: 526px;
   height: 356px; */
 }
+
 
 </style>
 

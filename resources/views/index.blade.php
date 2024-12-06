@@ -921,6 +921,15 @@
   position: relative;
 }
 
+#hero:before {
+  content: "";
+  background: none;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
 </style>
 

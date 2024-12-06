@@ -913,6 +913,14 @@
   height: 356px; */
 }
 
+#hero {
+  width: 100%;
+  height: 70vh;
+  background: url("../slider/1.png") 0px 60%;
+  background-size: auto;
+  position: relative;
+}
+
 
 </style>
 

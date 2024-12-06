@@ -227,16 +227,11 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="row mb-2">
-                  <div class="com-md-8">
-                    <h4><a >Home Loan</a></h4>
-                  </div>
-                  <div class="com-md-4">
-                    <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
-                  </div>
+                <div class="mb-2">
+                  <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
                   {{-- <i class="bi bi-house-fill"></i> --}}
                 </div>
-                
+                <h4><a >Home Loan</a></h4>
                 <p class="text-justify">
                   Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
                   <a href="/services" class="learn-more-link">Know More</a></p>
@@ -930,7 +925,6 @@
   left: 0;
   right: 0;
 }
-
 </style>
 
   </footer><!-- End Footer -->

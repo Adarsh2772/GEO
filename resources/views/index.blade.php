@@ -911,9 +911,9 @@
 #hero {
   width: 100%;
   height: 70vh;
-  background: url("public/assets/slider/1.png") 0px 60%;
-  background-size: auto;
-  position: relative;
+  background: url('{{ asset("assets/slider/1.png") }}') 0px 60%;
+  background-size: contain;
+  position: contain;
 }
 
 #hero:before {

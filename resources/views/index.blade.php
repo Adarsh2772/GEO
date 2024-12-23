@@ -86,6 +86,299 @@
 
   <main id="main">
 
+
+    <div class="container mt-5">
+      <div class="row g-4 p-4">
+        <!-- Personal Loan Card -->
+        <div class="col-md-4">
+            <div class="card h-100 d-flex flex-column">
+                <img src="{{ asset('assets/img/Competitive-Interest-Rates.png') }}" class="card-img-top" alt="Personal Loan">
+                <div class="card-body d-flex flex-column">
+                    <h6 class="text-uppercase fw-bold text-muted">Competitive Interest Rates</h6>
+                    <h5 class="card-title">Affordable financing for your growing business.</h5>
+                    <p class="card-text">
+                        Unlock financing opportunities with competitive rates tailored to meet your business needs. Empower your growth without straining your budget.
+                    </p>
+                    <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#detailsModal">
+                      Know More <i class="bx bxs-chevron-right ms-1"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title fw-bold" id="detailsModalLabel">Why Competitive Rates Matter</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>High interest rates can eat into your profitability, affecting your business's growth trajectory. Securing loans at competitive rates helps ensure that more of your resources are directed toward building your business rather than servicing debt.</p>
+                      <h5 class="fw-bold">Our Offerings</h5>
+                      <ul class="list-group">
+                          <li class="list-group-item">
+                              <strong>1. Multiple Loan Options:</strong> Choose from a variety of loans, such as construction finance, term loans, or loans against property, each designed to cater to specific needs. Our team ensures you select the most affordable and suitable option for your project.
+                          </li>
+                          <li class="list-group-item">
+                              <strong>2. Transparent Terms:</strong> No hidden charges or surprises—our transparent loan terms empower you to plan your finances confidently.
+                          </li>
+                          <li class="list-group-item">
+                              <strong>3. Flexible Repayment Plans:</strong> Customize repayment schedules based on your cash flow, offering convenience and reducing financial strain.
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!-- Home Loan Card -->
+        <div class="col-md-4">
+            <div class="card h-100 d-flex flex-column">
+                <img src="{{ asset('assets/img/Cost-Optimization.png') }}" class="card-img-top" alt="Home Loan">
+                <div class="card-body d-flex flex-column">
+                    <h6 class="text-uppercase fw-bold text-muted">Reduce Loan Expenses</h6>
+                    <h5 class="card-title">Cut costs, maximize savings on your loans.</h5>
+                    <p class="card-text">
+                        Streamline your finances by minimizing loan costs. Our solutions help you save more and focus on expanding your operations.
+                    </p>
+                    <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#loanExpenseModal">
+                      Know More <i class="bx bxs-chevron-right ms-1"></i>
+                  </button>
+                </div>
+                <!-- Modal -->
+    <div class="modal fade" id="loanExpenseModal" tabindex="-1" aria-labelledby="loanExpenseModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="loanExpenseModalLabel">Why It’s Important</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>Loan expenses, including interest payments and fees, can significantly impact your cash flow and profitability. Optimizing your loan-related costs ensures that more of your resources are available for business growth and operational needs.</p>
+                  <h5 class="fw-bold">How We Help You Reduce Loan Expenses</h5>
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <strong>1. Loan Structure Analysis:</strong> We review your existing loan portfolio to identify high-cost loans and suggest strategies to refinance or restructure them at lower interest rates or better terms.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>2. Negotiate Better Terms:</strong> Our experts work with lenders to negotiate reduced interest rates, extended tenures, or waiver of prepayment penalties, ensuring you save money in the long run.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>3. Optimize Repayment Plans:</strong> Tailor your repayment schedules to align with your cash flow, avoiding unnecessary penalties or excess interest accumulation.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>4. Identify Hidden Charges:</strong> We scrutinize loan agreements to uncover and eliminate hidden fees, charges, or clauses that might inflate your borrowing costs.
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+            </div>
+        </div>
+        <!-- Digital Rupee Card -->
+        <div class="col-md-4">
+            <div class="card h-100 d-flex flex-column">
+                <img src="{{ asset('assets/img/Expert-Support.png') }}" class="card-img-top" alt="Digital Rupee">
+                <div class="card-body d-flex flex-column">
+                    <h6 class="text-uppercase fw-bold text-muted">Expert Support</h6>
+                    <h5 class="card-title">Guidance you can trust, expertise you can rely on.</h5>
+                    <p class="card-text">
+                        Get personalized advice from seasoned financial experts. We're here to guide you at every step of your journey with reliable insights.
+                    </p>
+                    <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#expertSupportModal">
+                      Know More <i class="bx bxs-chevron-right ms-1"></i>
+                  </button>
+                </div>
+
+                 <!-- Modal -->
+    <div class="modal fade" id="expertSupportModal" tabindex="-1" aria-labelledby="expertSupportModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="expertSupportModalLabel">Why You Need Expert Support</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>In today’s dynamic market, financial challenges can arise unexpectedly. Having access to expert guidance can mean the difference between overcoming obstacles and facing setbacks.</p>
+                  <h5 class="fw-bold">Our Expertise Includes:</h5>
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <strong>1. Financial Consultation:</strong> Get tailored advice on tackling challenges like cash flow issues, funding shortfalls, or regulatory compliance.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>2. Loan Process Simplification:</strong> From application to approval, we guide you through every step of the loan process, ensuring a seamless experience.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>3. Ongoing Project Support:</strong> Receive continuous financial advice throughout your project lifecycle, ensuring that your finances stay on track.
+                      </li>
+                  </ul>
+                  <h5 class="fw-bold mt-4">Benefits of Expert Support:</h5>
+                  <ul>
+                      <li>Faster resolution of financial bottlenecks.</li>
+                      <li>Access to industry insights and proven strategies.</li>
+                      <li>Increased confidence in financial decisions.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row g-4 p-4">
+      <!-- Personal Loan Card -->
+      <div class="col-md-4">
+          <div class="card h-100 d-flex flex-column">
+              <img src="{{ asset('assets/img/End-to-End-Financial-Solutions.png') }}" class="card-img-top" alt="Personal Loan">
+              <div class="card-body d-flex flex-column">
+                  <h6 class="text-uppercase fw-bold text-muted">End-to-End Financial Solutions</h6>
+                  <h5 class="card-title">Your one-stop destination for financial needs.</h5>
+                  <p class="card-text">
+                      From funding to compliance, find all your financial solutions under one roof. Simplify processes and save time with our comprehensive services.
+                  </p>
+                  <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#comprehensiveServicesModal">
+                    Know More <i class="bx bxs-chevron-right ms-1"></i>
+                </button>
+              </div>
+
+              <!-- Modal -->
+    <div class="modal fade" id="comprehensiveServicesModal" tabindex="-1" aria-labelledby="comprehensiveServicesModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="comprehensiveServicesModalLabel">Comprehensive Services</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>From securing project financing to managing operational cash flow, we provide a 360-degree solution to all your financial needs.</p>
+                  <h5 class="fw-bold">What We Cover:</h5>
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <strong>1. Project Funding:</strong> Secure construction finance, working capital loans, or long-term loans tailored to your project needs.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>2. Cash Flow Management:</strong> Ensure uninterrupted operations by effectively managing your income and expenses.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>3. Debt Restructuring:</strong> Optimize your existing debt to reduce costs and improve repayment terms.
+                      </li>
+                  </ul>
+                  <h5 class="fw-bold mt-4">How It Works:</h5>
+                  <ul>
+                      <li>Assess your financial needs.</li>
+                      <li>Craft a tailored solution combining various services.</li>
+                      <li>Provide ongoing support to ensure successful implementation.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+          </div>
+      </div>
+      <!-- Home Loan Card -->
+      <div class="col-md-4">
+          <div class="card h-100 d-flex flex-column">
+              <img src="{{ asset('assets/img/Strategic-Business-Planning.png') }}" class="card-img-top" alt="Home Loan">
+              <div class="card-body d-flex flex-column">
+                  <h6 class="text-uppercase fw-bold text-muted">Strategic Business Planning</h6>
+                  <h5 class="card-title">Strategies for sustainable growth.</h5>
+                  <p class="card-text">
+                      Develop sustainable strategies with our business planning services. Achieve long-term growth and make data-driven decisions confidently.
+                  </p>
+                  <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#futurePlanModal">
+                    Know More <i class="bx bxs-chevron-right ms-1"></i>
+                </button>
+              </div>
+                <!-- Modal -->
+    <div class="modal fade" id="futurePlanModal" tabindex="-1" aria-labelledby="futurePlanModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="futurePlanModalLabel">Plan for the Future</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>A well-defined business strategy is key to long-term success. Our team helps you create a roadmap that balances short-term goals with long-term sustainability.</p>
+                  <h5 class="fw-bold">Our Services:</h5>
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <strong>1. Financial Roadmapping:</strong> Develop a detailed financial plan that aligns with your business objectives and milestones.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>2. ROI Optimization:</strong> Use data analytics to maximize returns on investment while minimizing risks.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>3. Market Analysis:</strong> Stay ahead of competitors with insights into market trends, customer preferences, and emerging opportunities.
+                      </li>
+                  </ul>
+                  <h5 class="fw-bold mt-4">Benefits:</h5>
+                  <ul>
+                      <li>Enhanced profitability through strategic decision-making.</li>
+                      <li>Reduced risks with informed financial forecasting.</li>
+                      <li>A clear path to achieving growth objectives.</li>
+                  </ul>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+          </div>
+      </div>
+      <!-- Digital Rupee Card -->
+      <div class="col-md-4">
+          <div class="card h-100 d-flex flex-column">
+              <img src="{{ asset('assets/img/RERA-Compliance-Assistance.png') }}" class="card-img-top" alt="Digital Rupee">
+              <div class="card-body d-flex flex-column">
+                  <h6 class="text-uppercase fw-bold text-muted">RERA Compliance Assistance</h6>
+                  <h5 class="card-title">Navigating RERA made simple.</h5>
+                  <p class="card-text">
+                      Stay compliant with RERA regulations effortlessly. Our expert team ensures you meet all legal requirements seamlessly and on time.
+                  </p>
+                  <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#reraComplianceModal">
+                    Know More <i class="bx bxs-chevron-right ms-1"></i>
+                </button>
+              </div>
+                <!-- Modal -->
+    <div class="modal fade" id="reraComplianceModal" tabindex="-1" aria-labelledby="reraComplianceModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="reraComplianceModalLabel">Why RERA Compliance is Crucial</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>Compliance with RERA regulations ensures project transparency and avoids costly penalties. Non-compliance can lead to delays, fines, and loss of reputation.</p>
+                  <h5 class="fw-bold">How We Support You:</h5>
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <strong>1. Project Registration:</strong> Simplify the RERA registration process with our guidance, ensuring all documents are in place and compliant with legal requirements.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>2. Regular Updates:</strong> Stay on top of quarterly updates, disclosures, and submissions to ensure continued compliance throughout your project.
+                      </li>
+                      <li class="list-group-item">
+                          <strong>3. Regulatory Guidance:</strong> Avoid pitfalls by proactively addressing changes in RERA rules and their implications for your project.
+                      </li>
+                  </ul>
+                  <h5 class="fw-bold mt-4">Why Choose Us?</h5>
+                  <ul>
+                      <li>Comprehensive understanding of RERA regulations.</li>
+                      <li>Proactive support to prevent penalties.</li>
+                      <li>Expert insights to keep your project compliant and on track.</li>
+                  </ul>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
     <!-- ======= Featured Services Section ======= -->
     {{-- <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
@@ -896,17 +1189,6 @@
   width:50%;
   left: -22%;
 }  
-}
-
-.img-bordered {
-  max-width: 100%;
-  height: auto;
-  /* border: 6px solid #1a4ba0;  */
-  border-radius: 5px; /* Optional rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visuals */
-  /* width: 526px;
-  height: 356px; */
-}
 
 #hero {
   width: 100%;
@@ -925,6 +1207,19 @@
   left: 0;
   right: 0;
 }
+}
+
+.img-bordered {
+  max-width: 100%;
+  height: auto;
+  /* border: 6px solid #1a4ba0;  */
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visuals */
+  /* width: 526px;
+  height: 356px; */
+}
+
+
 </style>
 
   </footer><!-- End Footer -->

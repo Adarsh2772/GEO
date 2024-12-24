@@ -96,8 +96,9 @@
                 <div class="card-body d-flex flex-column">
                     <h6 class="text-uppercase fw-bold text-muted">Competitive Interest Rates</h6>
                     <h5 class="card-title">Affordable financing for your growing business.</h5>
+                    <p></p>
                     <p class="card-text">
-                        Unlock financing opportunities with competitive rates tailored to meet your business needs. Empower your growth without straining your budget.
+                        Unlock financing opportunities with competitive rates tailored to meet your business needs.
                     </p>
                     <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#detailsModal">
                       Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -138,8 +139,9 @@
                 <div class="card-body d-flex flex-column">
                     <h6 class="text-uppercase fw-bold text-muted">Reduce Loan Expenses</h6>
                     <h5 class="card-title">Cut costs, maximize savings on your loans.</h5>
+                    <p></p>
                     <p class="card-text">
-                        Streamline your finances by minimizing loan costs. Our solutions help you save more and focus on expanding your operations.
+                        Streamline your finances by minimizing loan costs. 
                     </p>
                     <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#loanExpenseModal">
                       Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -183,8 +185,9 @@
                 <div class="card-body d-flex flex-column">
                     <h6 class="text-uppercase fw-bold text-muted">Expert Support</h6>
                     <h5 class="card-title">Guidance you can trust, expertise you can rely on.</h5>
+                    <p></p>
                     <p class="card-text">
-                        Get personalized advice from seasoned financial experts. We're here to guide you at every step of your journey with reliable insights.
+                        Get personalized advice from seasoned financial experts. 
                     </p>
                     <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#expertSupportModal">
                       Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -236,8 +239,9 @@
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">End-to-End Financial Solutions</h6>
                   <h5 class="card-title">Your one-stop destination for financial needs.</h5>
+                  <p></p>
                   <p class="card-text">
-                      From funding to compliance, find all your financial solutions under one roof. Simplify processes and save time with our comprehensive services.
+                      From funding to compliance, find all your financial solutions under one roof.
                   </p>
                   <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#comprehensiveServicesModal">
                     Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -285,8 +289,9 @@
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">Strategic Business Planning</h6>
                   <h5 class="card-title">Strategies for sustainable growth.</h5>
+                  <p></p>
                   <p class="card-text">
-                      Develop sustainable strategies with our business planning services. Achieve long-term growth and make data-driven decisions confidently.
+                      Develop sustainable strategies with our business planning services.
                   </p>
                   <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#futurePlanModal">
                     Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -334,8 +339,9 @@
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">RERA Compliance Assistance</h6>
                   <h5 class="card-title">Navigating RERA made simple.</h5>
+                  <p></p>
                   <p class="card-text">
-                      Stay compliant with RERA regulations effortlessly. Our expert team ensures you meet all legal requirements seamlessly and on time.
+                      Stay compliant with RERA regulations effortlessly.
                   </p>
                   <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#reraComplianceModal">
                     Know More <i class="bx bxs-chevron-right ms-1"></i>
@@ -896,25 +902,7 @@
                 </p>
               </div>
             </div>
-          </div>
-          
-          <!-- Card 7 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100 border-0 shadow">
-              <div class="card-body">
-                <div class="d-flex align-items-center mb-3">
-                  {{-- <i class="bi bi-bar-chart-fill me-2 fs-3"></i> --}}
-                  <img src="{{ asset('assets/why/Results-Driven-Approach.png')}}" style="height: 50px;" alt="">
-
-                  <h5 class="card-title mb-0"><u>Results-Driven Approach</u></h5>
-                </div>
-                <p class="card-text">
-                  Your success is our utmost priority. We adopt a results-driven approach focused on maximizing financial potential and achieving sustainability.
-                </p>
-              </div>
-            </div>
-          </div>
-          
+          </div>          
         </div>
       </div>
     </section>
@@ -1002,7 +990,7 @@
         <div class="section-title">
           <h2>Contact</h2>
           <h3><span>Get In Touch</span></h3>
-          <p>Empower your business to become a leader of tomorrow with our strategic consulting solutions. Gain insights, develop innovative strategies, and stay ahead in today's competitive </p>
+          <p>Market by leveraging our expertise. Let us guide you in transforming challenges into opportunities and achieving sustainable growth. </p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">

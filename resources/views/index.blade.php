@@ -290,6 +290,7 @@
                   <h6 class="text-uppercase fw-bold text-muted">Strategic Business Planning</h6>
                   <h5 class="card-title">Strategies for sustainable growth.</h5>
                   <p></p>
+                  <p></p>
                   <p class="card-text">
                       Develop sustainable strategies with our business planning services.
                   </p>
@@ -339,6 +340,7 @@
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">RERA Compliance Assistance</h6>
                   <h5 class="card-title">Navigating RERA made simple.</h5>
+                  <p></p>
                   <p></p>
                   <p class="card-text">
                       Stay compliant with RERA regulations effortlessly.

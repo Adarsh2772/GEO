@@ -1218,8 +1218,10 @@
   /* width: 526px;
   height: 356px; */
 }
-
-
+.btn-primary {
+--bs-btn-bg: #1a4ba0!important;
+--bs-btn-border-color: #1a4ba0!important;
+}
 </style>
 
   </footer><!-- End Footer -->

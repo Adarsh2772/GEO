@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('assets/img/geo-favicon.svg')}}" rel="icon">
+  <link href="{{asset('assets/img/geo_favicon.png')}}" rel="icon">
   <link href="{{asset('assets/img/geo-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -52,7 +52,7 @@
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="/" class="logo">
-        <img src="{{asset('assets/img/GEO-LOGO.png')}}" alt="GEO logo">
+        <img src="{{asset('assets/img/logo-3.png')}}" alt="GEO logo">
           
       </a>
 
@@ -489,7 +489,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/Sambhaji-More2.jpeg')}}" class="" style="height: 225px;" alt="">
+            <img src="{{asset('assets/img/Sambhaji-More2.jpeg')}}" class="" style="height: 225px;" alt="Sambhaji More">
           </div>
             <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
             <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to GEO Business Solutions PVT. LTD., Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
@@ -499,7 +499,7 @@
         <br>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/Siddhant-Chindhe-2.jpg')}}" style="width: 337px;" alt="">
+            <img src="{{asset('assets/img/Siddhant-Chindhe-3.jpeg')}}" style="width: 337px;" alt="Siddhant Chindhe">
           </div>
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
           <p><b>Siddhant Chindhe (Credit Manager):</b> is known for his exceptional ability to balance risk assessment with business growth. His strategic approach to credit evaluation ensures that every proposal is scrutinized with precision, safeguarding the company’s interests while fostering client trust. Siddhant’s expertise spans across diverse industries, enabling him to craft tailored solutions that meet unique client needs. His proactive mindset and problem-solving skills not only mitigate potential risks but also identify opportunities that contribute to sustainable growth.</p>

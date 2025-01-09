@@ -38,7 +38,7 @@
           <div class="max-w-full px-4 w-60">
             <a href="javascript:void(0)" class="block w-full py-5">
               {{-- <img
-                src="src/assets/images/logo/geo-logo.png"
+                src="src/assets/images/logo/logo-3.png"
                 alt="logo"
                 class="w-full dark:hidden"
               /> --}}

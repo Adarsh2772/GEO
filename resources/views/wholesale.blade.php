@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/geo-favicon.svg') }}" rel="icon">
+    <link href="{{ asset('assets/img/geo_favicon.png') }}" rel="icon">
     <link href="{{ asset('assets/img/geo-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->

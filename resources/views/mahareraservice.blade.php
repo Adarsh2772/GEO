@@ -53,8 +53,8 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="/" class="logo">
-                <img src="{{ asset('assets/img/GEO-LOGO.png') }}" alt="GEO logo">
+            <a href="/" >
+                <img src="{{ asset('assets/img/logo-3.png') }}" alt="GEO logo">
 
             </a>
 

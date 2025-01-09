@@ -478,7 +478,7 @@
             </ul>
           </div>
           <div class="col-lg-5 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ asset('assets/img/office4.jpg') }}" class="img-fluid img-bordered" alt="Office Image">
+            <img src="{{ asset('assets/img/office5.jpeg') }}" class="img-fluid img-bordered" alt="Office Image">
           </div>
         </div>
         

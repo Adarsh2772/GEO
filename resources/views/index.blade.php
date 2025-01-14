@@ -91,21 +91,21 @@
       <div class="row g-4 p-4">
         <!-- Personal Loan Card -->
         <div class="col-md-4">
-            <div class="card h-100 d-flex flex-column">
-                <img src="{{ asset('assets/img/Competitive-Interest-Rates.png') }}" class="card-img-top" alt="Personal Loan">
-                <div class="card-body d-flex flex-column">
-                    <h6 class="text-uppercase fw-bold text-muted">Competitive Interest Rates</h6>
-                    <h5 class="card-title">Affordable financing for your growing business.</h5>
-                    <p></p>
-                    <p class="card-text">
-                        Unlock financing opportunities with competitive rates tailored to meet your business needs.
-                    </p>
-                    <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#detailsModal">
+          <div class="card h-100 d-flex flex-column zoom-effect">
+              <img src="{{ asset('assets/img/Competitive-Interest-Rates.png') }}" class="card-img-top" alt="Personal Loan">
+              <div class="card-body d-flex flex-column">
+                  <h6 class="text-uppercase fw-bold text-muted">Competitive Interest Rates</h6>
+                  <h5 class="card-title">Affordable financing for your growing business.</h5>
+                  <p class="card-text">
+                      Unlock financing opportunities with competitive rates tailored to meet your business needs.
+                  </p>
+                  <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#detailsModal">
                       Know More <i class="bx bxs-chevron-right ms-1"></i>
                   </button>
-                </div>
-            </div>
-        </div>
+              </div>
+          </div>
+      </div>
+      
 
         <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
@@ -134,7 +134,7 @@
       </div>
         <!-- Home Loan Card -->
         <div class="col-md-4">
-            <div class="card h-100 d-flex flex-column">
+            <div class="card h-100 d-flex flex-column zoom-effect">
                 <img src="{{ asset('assets/img/Cost-Optimization.png') }}" class="card-img-top" alt="Home Loan">
                 <div class="card-body d-flex flex-column">
                     <h6 class="text-uppercase fw-bold text-muted">Reduce Loan Expenses</h6>
@@ -180,7 +180,7 @@
         </div>
         <!-- Digital Rupee Card -->
         <div class="col-md-4">
-            <div class="card h-100 d-flex flex-column">
+            <div class="card h-100 d-flex flex-column zoom-effect">
                 <img src="{{ asset('assets/img/Expert-Support.png') }}" class="card-img-top" alt="Digital Rupee">
                 <div class="card-body d-flex flex-column">
                     <h6 class="text-uppercase fw-bold text-muted">Expert Support</h6>
@@ -234,7 +234,7 @@
     <div class="row g-4 p-4">
       <!-- Personal Loan Card -->
       <div class="col-md-4">
-          <div class="card h-100 d-flex flex-column">
+          <div class="card h-100 d-flex flex-column zoom-effect">
               <img src="{{ asset('assets/img/End-to-End-Financial-Solutions.png') }}" class="card-img-top" alt="Personal Loan">
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">End-to-End Financial Solutions</h6>
@@ -284,7 +284,7 @@
       </div>
       <!-- Home Loan Card -->
       <div class="col-md-4">
-          <div class="card h-100 d-flex flex-column">
+          <div class="card h-100 d-flex flex-column zoom-effect">
               <img src="{{ asset('assets/img/Strategic-Business-Planning.png') }}" class="card-img-top" alt="Home Loan">
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">Strategic Business Planning</h6>
@@ -335,7 +335,7 @@
       </div>
       <!-- Digital Rupee Card -->
       <div class="col-md-4">
-          <div class="card h-100 d-flex flex-column">
+          <div class="card h-100 d-flex flex-column zoom-effect">
               <img src="{{ asset('assets/img/RERA-Compliance-Assistance.png') }}" class="card-img-top" alt="Digital Rupee">
               <div class="card-body d-flex flex-column">
                   <h6 class="text-uppercase fw-bold text-muted">RERA Compliance Assistance</h6>
@@ -527,20 +527,21 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box">
-                <div class="mb-2">
-                  <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
-                  {{-- <i class="bi bi-house-fill"></i> --}}
-                </div>
-                <h4><a >Home Loan</a></h4>
-                <p class="text-justify">
-                  Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
-                  <a href="/services" class="learn-more-link">Know More</a></p>
+              <div class="icon-box border-hover-effect">
+                  <div class="mb-2">
+                      <img src="{{ asset('assets/icons/HomeLoan.png')}}" alt="">
+                  </div>
+                  <h4><a>Home Loan</a></h4>
+                  <p class="text-justify">
+                      Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
+                      <a href="/services" class="learn-more-link">Know More</a>
+                  </p>
               </div>
-            </div>            
+          </div>
+                     
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box">
+              <div class="icon-box border-hover-effect">
                 <div class="mb-2">
                   <img src="{{ asset('assets/icons/Mortgage.png')}}" alt="">
                   {{-- <i class="bi bi-buildings-fill"></i> --}}
@@ -553,7 +554,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box">
+              <div class="icon-box border-hover-effect">
                 <div class="mb-2">
                   <img src="{{ asset('assets/icons/BusinessLoans.png')}}" alt="">
                 </div>
@@ -565,7 +566,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box">
+              <div class="icon-box border-hover-effect">
                 <div class="mb-2">
                   <img src="{{ asset('assets/icons/EquipmentFinance.png')}}" alt="">
                 </div>
@@ -577,7 +578,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon-box">
+              <div class="icon-box border-hover-effect">
                 <div class="mb-2">
                   <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
                 </div>
@@ -595,7 +596,7 @@
           <h3>Wholesale</h3>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/ProjectFinance.png')}}" alt="">
               </div>
@@ -607,7 +608,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/CashCredit.png')}}" alt="">
               </div>
@@ -619,7 +620,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/TermLoan.png')}}" alt="">
               </div>
@@ -631,7 +632,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/LetterofCredit.png')}}" alt="">
                 
@@ -643,7 +644,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/BankGuarantee.png')}}" alt="">
                 
@@ -655,7 +656,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/ForeignCurrencyTermLoan.png')}}" alt="">
                 
@@ -667,7 +668,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/ConstructionFinance.png')}}" alt="">
                 
@@ -680,7 +681,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/LoanagainstProperty.png')}}" alt="">
                 
@@ -693,7 +694,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box border-hover-effect">
               <div class="mb-2">
                 <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
                 
@@ -713,7 +714,7 @@
           <h3>RERA Services</h3>
           </div>
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/registration.png')}}" alt="">
               
@@ -726,7 +727,7 @@
         </div>
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/Compliance.png')}}" alt="">
               
@@ -739,7 +740,7 @@
         </div>
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/Drafting.png')}}" alt="">
               
@@ -755,7 +756,7 @@
         <br>
         <div class="row">
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/ProjectPlanning.png')}}" alt="">
               
@@ -768,7 +769,7 @@
         </div>
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/ProjectAmendments.png')}}" alt="">
               
@@ -781,7 +782,7 @@
         </div>
 
         <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box">
+          <div class="icon-box border-hover-effect">
             <div class="mb-2">
               <img src="{{ asset('assets/icons/Extension.png')}}" alt="">
               
@@ -1212,6 +1213,58 @@
 --bs-btn-bg: #1a4ba0!important;
 --bs-btn-border-color: #1a4ba0!important;
 }
+
+.zoom-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+.zoom-effect:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+
+.border-hover-effect {
+    position: relative;
+    padding: 20px;
+    border: 1px solid transparent; /* Default border hidden */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.border-hover-effect::before,
+.border-hover-effect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #0057a2; /* Border color */
+    transition: all 0.3s ease-in-out;
+}
+
+.border-hover-effect::before {
+    bottom: 0;
+    left: 0;
+    transform-origin: left bottom;
+}
+
+.border-hover-effect::after {
+    top: 0;
+    right: 0;
+    transform-origin: right top;
+}
+
+.border-hover-effect:hover::before {
+    width: 100%;
+}
+
+.border-hover-effect:hover::after {
+    width: 100%;
+}
+
+
 </style>
 
   </footer><!-- End Footer -->

@@ -78,7 +78,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container w-50-l-22" data-aos="zoom-out" data-aos-delay="100">
-      <h1 style="color: #fff;">Turning Opportunities into Reality with Expert Finance Solutions</h1>
+      <h1 style="color: #fff;">Innovative Finance Solutions to Turn Dreams into Reality</h1>
       <h2 style="color: #fff;">At GEO Business Solutions PVT. LTD., we are your strategic partners, dedicated to simplifying the complex journey between you and financial institutions.</h2>
       
     </div>
@@ -435,10 +435,10 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <h3>Discover tailor strategies and expert guidance</h3>
-            <p class="fst-italic">
+          <h3>Discover unique approaches and professional expertise.</h3>
+            {{-- <p class="fst-italic">
               At GEO Business Solutions PVT. LTD., we're experts in finance consultancy, with over 12 years of experience. We've worked extensively in the banking sector, building a strong network and deep understanding of finance.
-            </p>
+            </p> --}}
         </div>
         <div class="row">
           
@@ -533,7 +533,7 @@
                   </div>
                   <h4><a>Home Loan</a></h4>
                   <p class="text-justify">
-                      Fulfil your dream of homeownership with our seamless and competitive home loan offerings. Whether you're a first-time buyer or looking to upgrade, we've got you covered.
+                    A home loan finances home purchases, repaid via EMIs over 5–30 years. It offers low-interest rates, tax benefits, and flexible terms; good credit ensures better deals.
                       <a href="/services" class="learn-more-link">Know More</a>
                   </p>
               </div>
@@ -547,7 +547,7 @@
                   {{-- <i class="bi bi-buildings-fill"></i> --}}
                 </div>
                 <h4><a >Mortgage</a></h4>
-                <p class="text-justify">Looking to buy a home? You're in the right place. Our comprehensive guide to mortgage loans will walk you through everything you need to know to make informed decisions about financing your dream home.
+                <p class="text-justify">A mortgage is a home loan repaid in EMIs, offering low-interest rates, tax benefits, and flexible terms. Good credit and proper documents are key.
                   <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
@@ -559,7 +559,7 @@
                   <img src="{{ asset('assets/icons/BusinessLoans.png')}}" alt="">
                 </div>
                 <h4><a >Business Loans</a></h4>
-                <p class="text-justify">Fuel your business aspirations with tailored financing solutions from GEO Business Solutions PVT. LTD. Whether you're expanding operations, managing cash flow, or seizing new opportunities, our competitive business loans offer the flexibility and support you need to thrive.
+                <p class="text-justify">Business loans provide funds for startups, operations, or expansion, with flexible repayment options. Eligibility depends on credit score, income, and business plans.
                   <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
@@ -571,7 +571,7 @@
                   <img src="{{ asset('assets/icons/EquipmentFinance.png')}}" alt="">
                 </div>
                 <h4><a >Equipment Finance</a></h4>
-                <p class="text-justify">Equipment finance refers to the methods and options available for businesses to acquire machinery, vehicles, and other equipment necessary for their operations. There are several avenues and types of equipment finance, including loans, leases, and other financial products.
+                <p class="text-justify">Equipment finance helps businesses acquire machinery or equipment through loans or leases. It offers flexible terms and may include tax benefits.
                   <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
@@ -583,7 +583,7 @@
                   <img src="{{ asset('assets/icons/balance-tranfer.png')}}" alt="">
                 </div>
                 <h4><a >Balance Transfer (BT)</a></h4>
-                <p class="text-justify">A balance transfer is a financial strategy where you move the outstanding balance from one or more credit cards to another credit card, typically one with a lower interest rate. This can help you save on interest charges and pay down your debt more quickly.
+                <p class="text-justify">A Balance Transfer (BT) allows transferring outstanding debt from one credit card to another with a lower interest rate. It helps reduce interest payments and pay off debt faster.
                   <a href="/services" class="learn-more-link">Know More</a>
                 </p>
               </div>
@@ -601,7 +601,7 @@
                 <img src="{{ asset('assets/icons/ProjectFinance.png')}}" alt="">
               </div>
               <h4><a >Project Finance – Plant & Machinery, CC-OD</a></h4>
-              <p class="text-justify">Secure the funding you need for your ambitious real estate projects. Our expert team specializes in structuring project finance solutions to propel your ventures to new heights.
+              <p class="text-justify">Project finance for plant and machinery involves funding the purchase and installation of equipment, typically through loans. It provides short-term working capital for operational needs.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -613,7 +613,7 @@
                 <img src="{{ asset('assets/icons/CashCredit.png')}}" alt="">
               </div>
               <h4><a >Cash Credit / Working Capital (CC) / Overdraft (OD)</a></h4>
-              <p class="text-justify">Empower your MSME business with working capital solutions that fuel growth and sustainability. Our customized cash credit solutions are designed to meet the dynamic needs of your business.
+              <p class="text-justify">Cash Credit (CC) and Overdraft (OD) provide short-term funds for businesses, helping manage working capital with flexible repayment
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -625,7 +625,7 @@
                 <img src="{{ asset('assets/icons/TermLoan.png')}}" alt="">
               </div>
               <h4><a >Term Loan</a></h4>
-              <p class="text-justify">Unlock opportunities for expansion and development through flexible and competitive term loan options. Tailored to your industry and business size, our term loans are crafted for success.
+              <p class="text-justify">A term loan is a fixed amount borrowed for a specific period, repaid in regular installments. It typically has a set interest rate and is used for business or personal purposes.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -638,7 +638,7 @@
                 
               </div>
               <h4><a >Letter of Credit</a></h4>
-              <p class="text-justify">A Letter of Credit (LC) is a financial instrument issued by a bank or financial institution that guarantees a buyer's payment to a seller will be received on time and for the correct amount. If the buyer is unable to make the payment on the purchase, the bank covers the full or remaining amount.
+              <p class="text-justify">A Letter of Credit (LC) is a financial document issued by a bank guaranteeing payment to a seller upon fulfilling specified conditions. It reduces risk in international trade by assuring the seller of payment.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -650,7 +650,7 @@
                 
               </div>
               <h4><a >Bank Guarantee</a></h4>
-              <p class="text-justify">A bank guarantee is a financial product provided by a bank or financial institution, which serves as a promise to cover a loss if the borrower defaults on a loan or fails to meet contractual obligations. It's a form of risk management that offers assurance to the beneficiary (typically a seller, contractor, or service provider) that they will receive payment or compensation, even if the applicant (buyer, borrower, or contractor) fails to fulfill their obligations.
+              <p class="text-justify">A bank guarantee is a promise from a bank to cover a borrower’s debt if they fail to repay. It provides security to the lender in financial transactions.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -662,7 +662,7 @@
                 
               </div>
               <h4><a >Foreign Currency Term Loan</a></h4>
-              <p class="text-justify">A Foreign Currency Term Loan (FCTL) is a type of loan that is issued in a currency other than the domestic currency of the borrower. This kind of loan is often utilized by businesses that engage in international trade or have operations in multiple countries.
+              <p class="text-justify">A Foreign Currency Term Loan is a loan taken in a foreign currency, typically for long-term financing. It helps businesses manage international expenses and exchange rate fluctuations.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -674,7 +674,7 @@
                 
               </div>
               <h4><a >Construction Finance</a></h4>
-              <p class="text-justify">Construction finance is a type of funding specifically designed to support the financial needs of construction projects. This financing can be used for residential, commercial, or infrastructure development projects. It helps cover the costs of materials, labor, equipment, and other expenses associated with the construction process.
+              <p class="text-justify">Construction finance provides funding for building or renovating properties, typically through short-term loans. It covers costs like materials, labor, and permits.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -687,7 +687,7 @@
                 
               </div>
               <h4><a >Loan against Property (LAP)</a></h4>
-              <p class="text-justify">Leverage the equity in your property for strategic investments. Our LAP solutions offer liquidity while ensuring your assets work for you.
+              <p class="text-justify">A Loan Against Property (LAP) is a secured loan where property is used as collateral. It offers lower interest rates and flexible repayment terms.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -700,7 +700,7 @@
                 
               </div>
               <h4><a >Balance Transfer</a></h4>
-              <p class="text-justify">Optimize your existing loans with our balance transfer services. Benefit from lower interest rates and improved terms, enhancing your financial stability.
+              <p class="text-justify">A balance transfer allows you to move debt from one credit card to another, often with lower interest rates. It's a strategy to save on interest and pay off debt faster.
                 <a href="/wholesale" class="learn-more-link">Know More</a>
               </p>
             </div>
@@ -720,7 +720,7 @@
               
             </div>
             <h4><a >Registration</a></h4>
-            <p class="text-justify">Navigate the regulatory landscape seamlessly with our comprehensive MahaRERA registration service. Our experts guide you through the process of registering your real estate project, ensuring compliance with MahaRERA regulations. From document preparation to submission, we've got you covered.
+            <p class="text-justify">Compliance registration is the process of ensuring a business meets legal and regulatory requirements. It involves submitting necessary documentation to relevant authorities for approval
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
@@ -733,7 +733,7 @@
               
             </div>
             <h4><a >Compliance </a></h4>
-            <p class="text-justify">Ensure seamless MahaRERA compliance with our expert quarterly and yearly services. Navigate the regulatory landscape effortlessly for a successful real estate journey.
+            <p class="text-justify">Compliance ensures adherence to laws, regulations, and policies to maintain legal and ethical standards. It minimizes risks and ensures business integrity
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
@@ -746,7 +746,7 @@
               
             </div>
             <h4><a >Drafting</a></h4>
-            <p class="text-justify">Drafting for RERA typically involves creating various legal documents and agreements required for compliance with the regulations set by the Maharashtra Real Estate Regulatory Authority.
+            <p class="text-justify">A mortgage is a loan for buying a home, repaid in EMIs. It offers low interest rates, tax benefits, and flexible terms.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
@@ -762,7 +762,7 @@
               
             </div>
             <h4><a >Project Planning </a></h4>
-            <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project planning involves various steps to ensure compliance with MahaRERA regulations and successful execution of real estate projects.
+            <p class="text-justify">Project planning involves defining goals, timelines, and resources needed to complete a project. It ensures effective coordination, risk management, and successful project delivery.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
@@ -775,7 +775,7 @@
               
             </div>
             <h4><a >Project Amendments</a></h4>
-            <p class="text-justify">In the context of MahaRERA (Maharashtra Real Estate Regulatory Authority) services, project amendments refer to any changes or modifications made to the details provided during the initial registration of a real estate project.
+            <p class="text-justify">Project amendments involve making changes to a project's scope, timeline, or deliverables. They require proper documentation and approval to ensure alignment with goals.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>
@@ -788,7 +788,7 @@
               
             </div>
             <h4><a >Extension </a></h4>
-            <p class="text-justify">The extension process within the framework of MahaRERA services aims to balance the interests of developers and homebuyers while ensuring transparency, accountability, and compliance with regulatory requirements.
+            <p class="text-justify">A mortgage is a loan to buy or build a home, repaid in EMIs with flexible terms. It offers low-interest rates, tax benefits, and requires good credit and documents.
               <a href="/mahareraservice" class="learn-more-link">Know More</a>
             </p>
           </div>

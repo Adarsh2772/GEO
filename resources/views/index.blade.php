@@ -489,21 +489,20 @@
         </div>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/Sambhaji-More2.jpeg')}}" class="" style="height: 225px;" alt="Sambhaji More">
+            <img src="{{asset('assets/img/Sambhaji-More2.jpeg')}}" class="" style="height: 225px;border-radius: 10px;" alt="Sambhaji More">
           </div>
-            <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
-            <p><b>Sambhaji More (Relationship Manager):</b> A professional with a background in banking, embarked on his career journey as a legal head in an NBFC, where he honed his expertise for a year. Transitioning to GEO Business Solutions PVT. LTD., Sambhaji seamlessly integrated his legal and technical acumen, aligning his vision with that of the company's founders. 
-              His dedication bore fruit as he ascended to the position of Director, embodying the role of a relationship manager. Within the company, Sambhaji serves as a vital link between bankers and clients, adeptly understanding customer needs while ensuring compliance with standardized procedures, thus facilitating smooth transactions and fostering success.</p>
+            <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100" style="align-content: center;">
+            <p><b>Sambhaji More</b>, Director at GEO Business Solutions PVT. LTD., brings 11 years of banking experience and a strong foundation in legal and technical domains. Beginning as a legal head in an NBFC, he gained valuable insights that he now leverages to align with GEO’s goals. As Director, Sambhaji plays a pivotal role in relationship management, uniting bankers and clients, addressing their needs, and ensuring compliance for smooth, efficient transactions</p>
           </div>
         </div>
         <br>
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/Siddhant-Chindhe-3.jpeg')}}" style="width: 337px;" alt="Siddhant Chindhe">
+          
+          <div class="col-lg-8" data-aos="fade-right" data-aos-delay="100"  style="align-content: center;">
+          <p><b>Siddhant Chindhe</b> - With over 10 years of experience in the finance sector, including expertise in construction finance, Siddhant Chindhe brings a strategic approach to credit evaluation, ensuring precise scrutiny of proposals to safeguard company interests and build client trust. In his leading role at GEO, he drives professional growth, stays ahead of industry trends, and fosters long-term relationships, positioning himself as a trusted advisor in the financial landscape.</p>
           </div>
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-          <p><b>Siddhant Chindhe (Credit Manager):</b> is known for his exceptional ability to balance risk assessment with business growth. His strategic approach to credit evaluation ensures that every proposal is scrutinized with precision, safeguarding the company’s interests while fostering client trust. Siddhant’s expertise spans across diverse industries, enabling him to craft tailored solutions that meet unique client needs. His proactive mindset and problem-solving skills not only mitigate potential risks but also identify opportunities that contribute to sustainable growth.</p>
-          <p>Beyond his technical acumen, Siddhant is a dynamic leader who values collaboration and mentorship. He actively engages with cross-functional teams to streamline processes, enhance operational efficiency, and deliver seamless customer experiences. With a strong commitment to excellence, Siddhant remains focused on building long-term relationships that drive mutual success. His unwavering dedication to professional development and continuous learning ensures he stays ahead of industry trends, positioning him as a trusted advisor in the ever-evolving financial landscape.</p>
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <img src="{{asset('assets/img/Siddhant-Chindhe.jpeg')}}" style="width: 337px;border-radius: 10px;" alt="Siddhant Chindhe">
           </div>
         </div>
 

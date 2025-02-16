@@ -499,7 +499,7 @@
         <div class="row">
           
           <div class="col-lg-8" data-aos="fade-right" data-aos-delay="100"  style="align-content: center;">
-          <p><b>Siddhant Chindhe</b> - With over 10 years of experience in the finance sector, including expertise in construction finance, Siddhant Chindhe brings a strategic approach to credit evaluation, ensuring precise scrutiny of proposals to safeguard company interests and build client trust. In his leading role at GEO, he drives professional growth, stays ahead of industry trends, and fosters long-term relationships, positioning himself as a trusted advisor in the financial landscape.</p>
+          <p><b>Siddhant Chindhe</b>, Director at GEO Business Solutions PVT. LTD., With over 10 years of experience in the finance sector, including expertise in construction finance, Siddhant Chindhe brings a strategic approach to credit evaluation, ensuring precise scrutiny of proposals to safeguard company interests and build client trust. In his leading role at GEO, he drives professional growth, stays ahead of industry trends, and fosters long-term relationships, positioning himself as a trusted advisor in the financial landscape.</p>
           </div>
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
             <img src="{{asset('assets/img/Siddhant-Chindhe.jpeg')}}" style="width: 337px;border-radius: 10px;" alt="Siddhant Chindhe">

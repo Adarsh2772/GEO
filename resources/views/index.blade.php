@@ -959,10 +959,10 @@
 
 
         <section class="portfolio-details" style="background-image: linear-gradient(#b2dafd, #ffffff);">
-            <div class="container mt-4">
+            <div class="mt-4">
                 <div class="row">
-                    <div class="col-lg-5 py-3">
-                        <h3 style="color: #00579e;text-shadow: 2px 2px #00579e45;">Geo Business Guide Center</h3>
+                    <div class="col-lg-5 py-3 p-60">
+                        <h2 style="color: #00579e;">Geo Business Guide Center</h2>
                         <ul class="lh-fs">
                             <li><b>Actionable financial insights to power your business</b></li>
                             <li><b>In-depth guides on loan types, eligibility, and benefits</b></li>
@@ -971,7 +971,7 @@
                         </ul>
                         <a href="#contact"><button class="btn btn-primary explore-btn">Explore Now</button></a>
                     </div>
-                    <div class="col-lg-7" style="    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 70%, black 100%, transparent 100%);">
+                    <div class="col-lg-7 bg-blur">
                         <!-- First Row: Right to Left -->
 
                         <div class="marquee-container">
@@ -1470,7 +1470,7 @@
                 <a href="#contact">
                   <div class="modal-body" data-bs-dismiss="modal">
                       <!-- Full Size Image -->
-                      <img src="{{ asset('assets/img/landing-page.png') }}" alt="Full Image">
+                      <img src="{{ asset('assets/img/landing-page-2.png') }}" alt="Full Image">
                   </div>
                 </a>
               </div>
@@ -1543,8 +1543,9 @@
             }
 
             .lh-fs {
-                line-height: 40px;
+                line-height: 30px;
                 font-size: 18px;
+                padding: 18px;
             }
 
             .explore-btn {
@@ -1671,7 +1672,12 @@
                 width: 100%;
                 height: auto;
             }
-
+            .p-60{
+              padding: 60px
+            }
+            .bg-blur{
+              -webkit-mask-image: linear-gradient(to right, transparent 0%, black 70%, black 100%, transparent 100%);
+            }
         </style>
 
     </footer><!-- End Footer -->

@@ -971,7 +971,7 @@
                         </ul>
                         <a href="#contact"><button class="btn btn-primary explore-btn">Explore Now</button></a>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7" style="    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 70%, black 100%, transparent 100%);">
                         <!-- First Row: Right to Left -->
 
                         <div class="marquee-container">
@@ -1766,11 +1766,18 @@
         });
         
       // Auto show modal on page load
-      document.addEventListener("DOMContentLoaded", function() {
-            setTimeout(function() {
-                var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
-                myModal.show();
-            }, 5000); // 2000ms = 2 seconds
+      function isWebView() {
+            return window.innerWidth > 768; // Open modal only if screen width is greater than 768px (tablet & desktop)
+        }
+
+        // Open modal after 2 seconds if it's a web view
+        document.addEventListener("DOMContentLoaded", function() {
+            if (isWebView()) {
+                setTimeout(function() {
+                    var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+                    myModal.show();
+                }, 5000); // 2000ms = 2 seconds
+            }
         });
     </script>
 
